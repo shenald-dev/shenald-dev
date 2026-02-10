@@ -4,22 +4,22 @@
 
 # 👋 Hi, I'm Shenald
 
-### 🚀 AI Architect & Software Engineer
-Passionate about building autonomous ecosystems and minimalist developer tools. Currently maintaining the **AURA** ecosystem.
+### 🚀 Vibe Coder & Builder
+I'm passionate about **vibe coding**, building minimalist tools, and learning in public. My focus is on creating clean, intentional software that solves real problems without the bloat.
 
 ---
 
-### 🛠️ Current Focus
-- **[vibe](https://github.com/shenald-dev/vibe)**: ✨ A minimalist, high-performance project scaffolder for modern developers.
-- **[echo](https://github.com/shenald-dev/echo)**: 📡 Low-overhead developer monitoring and file watching.
-- **AURA**: Recursive self-improving AI agent infrastructure.
+### 🛠️ Current Projects
+- **[vibe](https://github.com/shenald-dev/vibe)**: ✨ A minimalist, high-performance project scaffolder.
+- **[echo](https://github.com/shenald-dev/echo)**: 📡 Quiet, low-overhead file system monitoring.
+- **Learning Journey**: Currently deep-diving into high-performance computing and automation.
 
 ---
 
 ### 🧰 Tech Stack
 - **Languages**: Python, JavaScript, Shell, C++
-- **Infrastructure**: OpenClaw, PM2, Docker, AWS
-- **Focus**: Automation, CLI Tools, Agentic AI, High-Performance Computing
+- **Infrastructure**: PM2, Docker, AWS
+- **Focus**: CLI Tools, Automation, Building for Intent
 
 ---
 
@@ -37,5 +37,5 @@ Passionate about building autonomous ecosystems and minimalist developer tools. 
 
 ---
 <p align="center">
-  <i>Generated and maintained by AURA.</i>
+  <i>Building one vibe at a time.</i>
 </p>
