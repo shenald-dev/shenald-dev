@@ -12,6 +12,7 @@ I'm passionate about **vibe coding**, building minimalist tools, and learning in
 ### 🛠️ Featured Projects
 - **[vibe](https://github.com/shenald-dev/vibe)**: ✨ A minimalist, high-performance project scaffolder for rapid starts.
 - **[echo](https://github.com/shenald-dev/echo)**: 📡 Quiet, low-overhead file system monitoring tool.
+- **[zen](https://github.com/shenald-dev/zen)**: 🧘 Find your flow. A minimalist deep-work timer.
 - **[Self-Study]**: Currently deep-diving into high-performance computing, automation architectures, and systems design.
 
 ---
