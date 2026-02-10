@@ -9,21 +9,23 @@ I'm passionate about **vibe coding**, building minimalist tools, and learning in
 
 ---
 
-### 🛠️ Current Projects
-- **[vibe](https://github.com/shenald-dev/vibe)**: ✨ A minimalist, high-performance project scaffolder.
-- **[echo](https://github.com/shenald-dev/echo)**: 📡 Quiet, low-overhead file system monitoring.
-- **Learning Journey**: Currently deep-diving into high-performance computing and automation.
+### 🛠️ Featured Projects
+- **[vibe](https://github.com/shenald-dev/vibe)**: ✨ A minimalist, high-performance project scaffolder for rapid starts.
+- **[echo](https://github.com/shenald-dev/echo)**: 📡 Quiet, low-overhead file system monitoring tool.
+- **[Self-Study]**: Currently deep-diving into high-performance computing, automation architectures, and systems design.
 
 ---
 
 ### 🧰 Tech Stack
-- **Languages**: Python, JavaScript, Shell, C++
-- **Infrastructure**: PM2, Docker, AWS
-- **Focus**: CLI Tools, Automation, Building for Intent
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,js,cpp,bash,linux,docker,aws,git,github,vscode" />
+  </a>
+</p>
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Engineering Impact
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=shenald-dev&show_icons=true&theme=transparent&hide_border=true" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shenald-dev&layout=compact&theme=transparent&hide_border=true" height="150" />
@@ -31,9 +33,9 @@ I'm passionate about **vibe coding**, building minimalist tools, and learning in
 
 ---
 
-### 📫 Reach Me
+### 📫 Connect With Me
 - **LinkedIn**: [shenald](https://www.linkedin.com/in/shenald)
-- **WhatsApp**: [+94 70 373 0604](https://wa.me/94703730604)
+- **Portfolio**: [github.com/shenald-dev](https://github.com/shenald-dev)
 
 ---
 <p align="center">
