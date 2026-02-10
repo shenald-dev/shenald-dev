@@ -17,16 +17,6 @@ I'm passionate about **vibe coding**, building minimalist tools, and learning in
 
 ---
 
-### 🧪 The Lab (R&D)
-Technical research and prototyping of high-impact concepts are centralized in my **[Lab](https://github.com/shenald-dev/lab)**.
-
-**Active Explorations:**
-- **[High-Performance Computing]**: Optimized parallel processing in Python.
-- **[atlas]**: 🗺️ Researching dynamic codebase architecture visualization.
-- **[Automation]**: Deep-diving into intentional, minimalist system design.
-
----
-
 ### 🧰 Tech Stack
 <p align="left">
   <a href="https://skillicons.dev">
