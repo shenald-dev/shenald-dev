@@ -22,10 +22,10 @@ I'm a **vibe coder** who builds intentional software with clean architecture and
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| **[catalyst](https://github.com/shenald-dev/catalyst)** | High-performance workflow orchestration engine | Node.js, Redis, gRPC |
-| **[vibe](https://github.com/shenald-dev/vibe)** | Minimalist project scaffolder for rapid starts | TypeScript, ESM |
-| **[echo](https://github.com/shenald-dev/echo)** | Quiet, low-overhead file system monitoring | Rust, WASM |
-| **[zen](https://github.com/shenald-dev/zen)** | Minimalist deep-work timer for focused building | React, PWA |
+| **[catalyst](https://github.com/shenald-dev/catalyst)** | High-performance workflow orchestration engine | Python, asyncio |
+| **[vibe](https://github.com/shenald-dev/vibe)** | Minimalist project scaffolder for rapid starts | Python, CLI |
+| **[echo](https://github.com/shenald-dev/echo)** | Quiet, low-overhead file system monitoring | Python, watchdog |
+| **[zen](https://github.com/shenald-dev/zen)** | Minimalist deep-work timer for focused building | Python, terminal UI |
 
 ---
 
