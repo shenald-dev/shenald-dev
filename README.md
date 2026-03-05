@@ -49,8 +49,6 @@ Rust-based, <5MB RAM, triggers commands on changes. No config, just works.
 ## 📫 Get in Touch
 
 - **GitHub:** [@shenald-dev](https://github.com/shenald-dev)
-- **Email:** shenald@example.com *(replace with real email if desired)*
-- **Mastodon:** @shenald@fosstodon.org *(optional)*
 
 ---
 
