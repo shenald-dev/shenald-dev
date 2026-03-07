@@ -1,55 +1,62 @@
-# 👋 Hey, I'm Shenald
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=Senior+Software+Architect;Creative+Vibe+Coder+%E2%9C%A8;Advanced+AI+Developer;Building+Autonomous+Systems" alt="Typing SVG" />
+</div>
 
-> **Vibe coder** building tools that just *work*.
+<div align="center">
+  <p><i>Turning caffeine and flow state into high-performance, strictly-typed AI architectures.</i></p>
 
-I make software for developers who value **simplicity**, **speed**, and **real-world impact**. No bloat. No over-engineering. Just clean tools that solve problems.
+  <a href="https://github.com/shenald-dev">
+    <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  </a>
+  <a href="https://github.com/shenald-dev">
+    <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </a>
+  <a href="https://github.com/shenald-dev">
+    <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  </a>
+  <a href="https://github.com/shenald-dev">
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  </a>
+  <a href="https://github.com/shenald-dev">
+    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  </a>
+  <br />
+</div>
 
----
-
-## 🛠️ What I Build
-
-### 🚀 [catalyst](https://github.com/shenald-dev/catalyst)
-**High-performance workflow engine**  
-Parallel DAG execution for build pipelines. 1000-node sorts in <1s. Python + asyncio.
-
-### ⚡ [one-api](https://github.com/shenald-dev/one-api)
-**One API to rule them all**  
-Unified gateway for 20+ LLM providers (OpenAI, Claude, Gemini...). Single binary, zero config.
-
-### ✨ [vibe](https://github.com/shenald-dev/vibe)
-**Minimalist project scaffolder**  
-Start projects in seconds, not minutes. Pick a template, fill blanks, go.
-
-### 🧘 [zen](https://github.com/shenald-dev/zen)
-**Deep-work timer**  
-Terminal-based Pomodoro with zen vibes. Focus, tracked.
-
-### 📡 [echo](https://github.com/shenald-dev/echo)
-**Quiet file watcher**  
-Rust-based, <5MB RAM, triggers commands on changes. No config, just works.
+<br />
 
 ---
 
-## 🌟 Philosophy
+## 🚀 Autonomous Systems & AI Architecture
 
-- **Less is more** — If it can be simpler, it will be.
-- **Build for yourself first** — If I find it useful, others will too.
-- **Noise-free code** — No over-designed abstractions, no 500 dependencies.
-- **Real tools, real problems** — No toy examples, no research papers.
+I specialize in building intelligent applications and autonomous agents. Below are the crown jewels of my **AI portfolio**.
 
----
-
-## 📊 Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shenald-dev&show_icons=true&hide_border=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shenald-dev&layout=compact&hide_border=true&theme=transparent)
+| Repository | Description | Tech Stack |
+| :--- | :--- | :--- |
+| 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder**. Give it a prompt, and it scaffolds a gorgeous Next.js frontend, FastAPI backend, Docker setup, and CI/CD pipelines instantly. | `TypeScript`, `Handlebars`, `OpenRouter API` |
+| 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent**. An intelligent CLI powered by LangChain that automatically scours the web to write deep-dive markdown reports seamlessly. | `TypeScript`, `LangChain`, `OpenAI` |
+| ⚡ **[one-api](https://github.com/shenald-dev/one-api)** | **Universal Edge LLM Gateway**. Single binary, zero-config API gateway routing inferences to 20+ top-tier LLM providers. | `TypeScript`, `Hono.js`, `Vercel Edge` |
 
 ---
 
-## 📫 Get in Touch
+## ⚙️ High-Performance Mechanics
 
-- **GitHub:** [@shenald-dev](https://github.com/shenald-dev)
+Beyond AI, I engineer foundational workflow tools and developer tooling focused on speed and simplicity. **Zero bloat. Maximum Flow.**
+
+| Repository | Description | Tech Stack |
+| :--- | :--- | :--- |
+| 🧠 **[catalyst](https://github.com/shenald-dev/catalyst)** | **Parallel DAG Workflow Engine**. Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python. Includes benchmarking. | `Python`, `FastAPI`, `NetworkX` |
+| 🎭 **[moq](https://github.com/shenald-dev/moq)** | **Zero-config mock server**. Lightning fast Express-based server to instantly mock endpoints during frontend development without config hassle. | `TypeScript`, `Express` |
+| 🧘‍♂️ **[zen](https://github.com/shenald-dev/zen)** / **[echo](https://github.com/shenald-dev/echo)** | **Minimalist Developer Toolbelt**. Deep-work terminal timers and ultra-lightweight zero-config file watchers to keep your CLI vibe undisturbed. | `Python`, `Bash` |
 
 ---
 
-*Built with intention.* 🧘‍♂️✨
+## 📊 Vibe Telemetry
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shenald-dev&show_icons=true&hide_border=true&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shenald-dev&layout=compact&hide_border=true&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" alt="Top Langs" width="48%" />
+</div>
+
+---
+*Built with intention.* 🧘‍♂️✨ Let's connect on [GitHub](https://github.com/shenald-dev).
