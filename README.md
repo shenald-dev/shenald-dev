@@ -35,6 +35,8 @@ I specialize in building intelligent applications and autonomous agents. Below a
 | :--- | :--- | :--- |
 | 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder**. Give it a prompt, and it scaffolds a gorgeous Next.js frontend, FastAPI backend, Docker setup, and CI/CD pipelines instantly. | `TypeScript`, `Handlebars`, `OpenRouter API` |
 | 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent**. An intelligent CLI powered by LangChain that automatically scours the web to write deep-dive markdown reports seamlessly. | `TypeScript`, `LangChain`, `OpenAI` |
+| 🧬 **[CodeDNA](https://github.com/shenald-dev/codedna)** | **Software Intelligence Analyzer**. Reverse-engineers any codebase to generate interactive "DNA profiles" analyzing architecture, dependencies, and developer patterns. | `Python`, `NetworkX`, `Mermaid` |
+| 💬 **[AI WhatsApp Intelligence](https://github.com/shenald-dev/ai-whatsapp-intelligence)** | **Real-Time Group Chat Monitor**. Fully automated AI system tracking live conversations, extracting sentiment, tasks, and trends with vector memory. | `FastAPI`, `Next.js`, `LangChain` |
 | ⚡ **[one-api](https://github.com/shenald-dev/one-api)** | **Universal Edge LLM Gateway**. Single binary, zero-config API gateway routing inferences to 20+ top-tier LLM providers. | `TypeScript`, `Hono.js`, `Vercel Edge` |
 
 ---
