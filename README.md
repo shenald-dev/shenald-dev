@@ -5,22 +5,9 @@
 <div align="center">
   <p><i>Turning caffeine and flow state into high-performance, strictly-typed AI architectures.</i></p>
 
-  <a href="https://github.com/shenald-dev">
-    <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,py,nextjs,fastapi,docker,bash,react,nodejs&theme=dark" alt="My Skills" />
   </a>
-  <a href="https://github.com/shenald-dev">
-    <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </a>
-  <a href="https://github.com/shenald-dev">
-    <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  </a>
-  <a href="https://github.com/shenald-dev">
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  </a>
-  <a href="https://github.com/shenald-dev">
-    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  </a>
-  <br />
 </div>
 
 <br />
@@ -65,4 +52,19 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 </div>
 
 ---
-*Built with intention.* 🧘‍♂️✨ Let's connect on [GitHub](https://github.com/shenald-dev).
+
+## 🤝 Let's Connect
+
+<div align="center">
+  <a href="https://github.com/shenald-dev">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/shenald-dev">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/shenald-dev">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <br />
+  <p><i>Built with intention. 🧘‍♂️✨</i></p>
+</div>
