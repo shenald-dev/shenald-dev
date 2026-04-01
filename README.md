@@ -56,8 +56,12 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 ## 📊 Vibe Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shenald-dev&show_icons=true&hide_border=true&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shenald-dev&layout=compact&hide_border=true&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" alt="Top Langs" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shenald-dev&hide_border=true&background=0d1117&ring=00d4ff&fire=00d4ff&currStreakNum=c9d1d9&currStreakLabel=00d4ff&sideNums=c9d1d9&sideLabels=00d4ff&dates=c9d1d9" alt="GitHub Streak" width="98%" />
+</div>
+<br />
+<div align="center">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=shenald-dev&show_icons=true&hide_border=true&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=shenald-dev&layout=compact&hide_border=true&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117" alt="Top Langs" width="48%" />
 </div>
 
 ---
