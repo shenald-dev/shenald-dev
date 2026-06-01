@@ -33,6 +33,7 @@ I specialize in building intelligent applications and autonomous agents. Below a
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| 🌌 **[SHEN AI](https://github.com/shenald-dev/shen-ai)** | **Autonomous Coding Agent**. A superior multi-agent AI coding assistant that thinks ahead, learns your style, and builds autonomously inside VS Code. | `TypeScript`, `React`, `Anthropic/OpenAI` |
 | 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder**. Give it a prompt, and it scaffolds a gorgeous Next.js frontend, FastAPI backend, Docker setup, and CI/CD pipelines instantly. | `TypeScript`, `Handlebars`, `OpenRouter API` |
 | 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent**. An intelligent CLI powered by LangChain that automatically scours the web to write deep-dive markdown reports seamlessly. | `TypeScript`, `LangChain`, `OpenAI` |
 | 🧬 **[CodeDNA](https://github.com/shenald-dev/codedna)** | **Software Intelligence Analyzer**. Reverse-engineers any codebase to generate interactive "DNA profiles" analyzing architecture, dependencies, and developer patterns. | `Python`, `NetworkX`, `Mermaid` |
