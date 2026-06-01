@@ -51,6 +51,7 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 | 🧠 **[catalyst](https://github.com/shenald-dev/catalyst)** | **Parallel DAG Workflow Engine**. Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python. Includes benchmarking. | `Python`, `FastAPI`, `NetworkX` |
 | 🎭 **[moq](https://github.com/shenald-dev/moq)** | **Zero-config mock server**. Lightning fast Express-based server to instantly mock endpoints during frontend development without config hassle. | `TypeScript`, `Express` |
 | 🧘‍♂️ **[zen](https://github.com/shenald-dev/zen)** / **[echo](https://github.com/shenald-dev/echo)** | **Minimalist Developer Toolbelt**. Deep-work terminal timers and ultra-lightweight zero-config file watchers to keep your CLI vibe undisturbed. | `Python`, `Bash` |
+| ✨ **[vibe](https://github.com/shenald-dev/vibe)** | **Minimalist Project Scaffolding Engine**. Generate beautifully tuned full-stack templates instantly via a visually stunning TUI without writing boilerplate. | `Python`, `Typer`, `Rich` |
 
 ---
 
