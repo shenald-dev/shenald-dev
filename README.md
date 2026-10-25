@@ -48,6 +48,7 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| 🍸 **[sober](https://github.com/shenald-dev/sober)** | **The Vibe Coding Hangover Cure**. Ultra-fast (<500ms) zero-config CLI auditing AI hallucinations, ghost code, secret leaks, and slopsquatting before production. | `Python`, `Typer`, `Rich` |
 | 🧠 **[catalyst](https://github.com/shenald-dev/catalyst)** | **Parallel DAG Workflow Engine**. Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python. Includes benchmarking. | `Python`, `FastAPI`, `NetworkX` |
 | 🎭 **[moq](https://github.com/shenald-dev/moq)** | **Zero-config mock server**. Lightning fast Express-based server to instantly mock endpoints during frontend development without config hassle. | `TypeScript`, `Express` |
 | 🧘‍♂️ **[zen](https://github.com/shenald-dev/zen)** / **[echo](https://github.com/shenald-dev/echo)** | **Minimalist Developer Toolbelt**. Deep-work terminal timers and ultra-lightweight zero-config file watchers to keep your CLI vibe undisturbed. | `Python`, `Bash` |
