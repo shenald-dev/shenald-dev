@@ -25,6 +25,15 @@
 
 <br />
 
+<div align="center">
+  <a href="https://github.com/shenald-dev/sober">
+    <img src="https://img.shields.io/badge/%F0%9F%94%A5_NEW_RELEASE-sober_v0.1.0-00d4ff?style=for-the-badge&logo=rocket&logoColor=white" alt="New Release Sober" />
+  </a>
+  <p><b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a> — The Vibe Coding Hangover Cure</b><br/><i>Audit, sanitize, and proofread AI-generated code before pushing to production. Zero bloat. &lt;500ms.</i></p>
+</div>
+
+<br />
+
 ---
 
 ## 🚀 Autonomous Systems & AI Architecture
