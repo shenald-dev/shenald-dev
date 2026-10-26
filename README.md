@@ -33,9 +33,14 @@
   <a href="https://github.com/shenald-dev/sober">
     <img src="https://img.shields.io/badge/%F0%9F%8D%B8_NEW_RELEASE-sober_v0.1.0-ff007f?style=for-the-badge&logo=shield&logoColor=white" alt="New Release Sober" />
   </a>
+  &nbsp;
+  <a href="https://github.com/shenald-dev/purge">
+    <img src="https://img.shields.io/badge/%F0%9F%A7%B9_NEW_RELEASE-purge_v0.1.0-00ff88?style=for-the-badge&logo=sparkles&logoColor=black" alt="New Release Purge" />
+  </a>
   <p>
     <b>💎 <a href="https://github.com/shenald-dev/prism">prism</a></b> — <i>Topological Blast Radius & Invariant Radar for AI code. Know what broke before you commit. (&lt;50ms)</i><br/>
-    <b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a></b> — <i>The Vibe Coding Hangover Cure. Audit AI hallucinations, ghost code, and secret leaks. (&lt;500ms)</i>
+    <b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a></b> — <i>The Vibe Coding Hangover Cure. Audit AI hallucinations, ghost code, and secret leaks. (&lt;500ms)</i><br/>
+    <b>🧹 <a href="https://github.com/shenald-dev/purge">purge</a></b> — <i>Developer Bloat & Zombie Reaper. Parallel disk scanner and dev server hunter on :3000. (&lt;3s)</i>
   </p>
 </div>
 
@@ -64,6 +69,7 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| 🧹 **[purge](https://github.com/shenald-dev/purge)** | **Developer Bloat & Zombie Reaper**. Parallel directory scanner and dev server hunter. Purges `node_modules`, `target`, `.venv`, and slays port hogs on `:3000` in 3 seconds. | `Python`, `Typer`, `Rich`, `psutil` |
 | 💎 **[prism](https://github.com/shenald-dev/prism)** | **Topological Blast Radius Radar**. Zero-latency (<50ms) topological call-graph & contract invariant analyzer. Pinpoints every broken downstream caller caused by AI edits. | `Python`, `Typer`, `Rich`, `AST` |
 | 🍸 **[sober](https://github.com/shenald-dev/sober)** | **The Vibe Coding Hangover Cure**. Ultra-fast (<500ms) zero-config CLI auditing AI hallucinations, ghost code, secret leaks, and slopsquatting before production. | `Python`, `Typer`, `Rich` |
 | 🧠 **[catalyst](https://github.com/shenald-dev/catalyst)** | **Parallel DAG Workflow Engine**. Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python. Includes benchmarking. | `Python`, `FastAPI`, `NetworkX` |
