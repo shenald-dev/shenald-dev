@@ -26,10 +26,17 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/shenald-dev/sober">
-    <img src="https://img.shields.io/badge/%F0%9F%94%A5_NEW_RELEASE-sober_v0.1.0-00d4ff?style=for-the-badge&logo=rocket&logoColor=white" alt="New Release Sober" />
+  <a href="https://github.com/shenald-dev/prism">
+    <img src="https://img.shields.io/badge/%F0%9F%92%8E_NEW_RELEASE-prism_v0.1.0-00d4ff?style=for-the-badge&logo=target&logoColor=white" alt="New Release Prism" />
   </a>
-  <p><b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a> — The Vibe Coding Hangover Cure</b><br/><i>Audit, sanitize, and proofread AI-generated code before pushing to production. Zero bloat. &lt;500ms.</i></p>
+  &nbsp;
+  <a href="https://github.com/shenald-dev/sober">
+    <img src="https://img.shields.io/badge/%F0%9F%8D%B8_NEW_RELEASE-sober_v0.1.0-ff007f?style=for-the-badge&logo=shield&logoColor=white" alt="New Release Sober" />
+  </a>
+  <p>
+    <b>💎 <a href="https://github.com/shenald-dev/prism">prism</a></b> — <i>Topological Blast Radius & Invariant Radar for AI code. Know what broke before you commit. (&lt;50ms)</i><br/>
+    <b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a></b> — <i>The Vibe Coding Hangover Cure. Audit AI hallucinations, ghost code, and secret leaks. (&lt;500ms)</i>
+  </p>
 </div>
 
 <br />
@@ -57,6 +64,7 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| 💎 **[prism](https://github.com/shenald-dev/prism)** | **Topological Blast Radius Radar**. Zero-latency (<50ms) topological call-graph & contract invariant analyzer. Pinpoints every broken downstream caller caused by AI edits. | `Python`, `Typer`, `Rich`, `AST` |
 | 🍸 **[sober](https://github.com/shenald-dev/sober)** | **The Vibe Coding Hangover Cure**. Ultra-fast (<500ms) zero-config CLI auditing AI hallucinations, ghost code, secret leaks, and slopsquatting before production. | `Python`, `Typer`, `Rich` |
 | 🧠 **[catalyst](https://github.com/shenald-dev/catalyst)** | **Parallel DAG Workflow Engine**. Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python. Includes benchmarking. | `Python`, `FastAPI`, `NetworkX` |
 | 🎭 **[moq](https://github.com/shenald-dev/moq)** | **Zero-config mock server**. Lightning fast Express-based server to instantly mock endpoints during frontend development without config hassle. | `TypeScript`, `Express` |
