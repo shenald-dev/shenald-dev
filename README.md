@@ -7,11 +7,7 @@
 
   <p>
     <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_PORTFOLIO-shenald--portfolio.vercel.app-00f0ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
-    </a>
-    &nbsp;
-    <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/%E2%9C%A8_3D_SCROLL_CINEMA-EXPLORE_PROFILE-00ff88?style=for-the-badge&logo=safari&logoColor=black&labelColor=030712" alt="Explore 3D Scroll Cinema Profile" />
+      <img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_PORTFOLIO-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
     </a>
   </p>
 
@@ -103,10 +99,10 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 ---
 
 <div align="center">
-  <h3>⚡ Step inside the interactive 3D developer sandbox</h3>
-  <p>Experience real-time AST invariant radars, scroll cinema transformations, and autonomous architectures:</p>
+  <h3>⚡ Step inside the interactive developer sandbox</h3>
+  <p>Experience real-time AST invariant radars, parallel reapers, and autonomous architectures:</p>
   <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80_VISIT_PORTFOLIO_PROFILE-shenald--portfolio.vercel.app-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Visit Portfolio Profile" />
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80_VISIT_PORTFOLIO_PROFILE-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Portfolio Profile" />
   </a>
   <br /><br />
   <i>Built with intention.</i> 🧘‍♂️✨ Let's connect on <a href="https://github.com/shenald-dev">GitHub</a> or explore my interactive profile at <a href="https://shenald-portfolio.vercel.app"><b>shenald-portfolio.vercel.app</b></a>.
