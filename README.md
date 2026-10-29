@@ -32,6 +32,10 @@
 <br />
 
 <div align="center">
+  <a href="https://github.com/shenald-dev/bonsai">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%B1_FLAGSHIP_RELEASE-bonsai_v0.1.0-2ea44f?style=for-the-badge&logo=tree&logoColor=white" alt="Flagship Release Bonsai" />
+  </a>
+  &nbsp;
   <a href="https://github.com/shenald-dev/prism">
     <img src="https://img.shields.io/badge/%F0%9F%92%8E_NEW_RELEASE-prism_v0.1.0-00d4ff?style=for-the-badge&logo=target&logoColor=white" alt="New Release Prism" />
   </a>
@@ -44,6 +48,7 @@
     <img src="https://img.shields.io/badge/%F0%9F%A7%B9_NEW_RELEASE-purge_v0.1.0-00ff88?style=for-the-badge&logo=sparkles&logoColor=black" alt="New Release Purge" />
   </a>
   <p>
+    <b>🌱 <a href="https://github.com/shenald-dev/bonsai">bonsai</a></b> — <i>The art of cultivating massive foundation models into pocket-sized intelligences on consumer silicon. (&lt;35s)</i><br/>
     <b>💎 <a href="https://github.com/shenald-dev/prism">prism</a></b> — <i>Topological Blast Radius & Invariant Radar for AI code. Know what broke before you commit. (&lt;50ms)</i><br/>
     <b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a></b> — <i>The Vibe Coding Hangover Cure. Audit AI hallucinations, ghost code, and secret leaks. (&lt;500ms)</i><br/>
     <b>🧹 <a href="https://github.com/shenald-dev/purge">purge</a></b> — <i>Developer Bloat & Zombie Reaper. Parallel disk scanner and dev server hunter on :3000. (&lt;3s)</i>
@@ -60,6 +65,7 @@ I specialize in building intelligent applications and autonomous agents. Below a
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| 🌱 **[bonsai](https://github.com/shenald-dev/bonsai)** | **Zero-Knowledge Local Micro-Model Distiller**. Cultivates massive LLMs into pocket-sized intelligences (0.5B-1.5B) on consumer PCs. Zero-OOM guard, blind holdout proof engine. | `Python`, `PyTorch`, `PEFT`, `Typer` |
 | 🌌 **[SHEN AI](https://github.com/shenald-dev/shen-ai)** | **Autonomous Coding Agent**. A superior multi-agent AI coding assistant that thinks ahead, learns your style, and builds autonomously inside VS Code. | `TypeScript`, `React`, `Anthropic/OpenAI` |
 | 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder**. Give it a prompt, and it scaffolds a gorgeous Next.js frontend, FastAPI backend, Docker setup, and CI/CD pipelines instantly. | `TypeScript`, `Handlebars`, `OpenRouter API` |
 | 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent**. An intelligent CLI powered by LangChain that automatically scours the web to write deep-dive markdown reports seamlessly. | `TypeScript`, `LangChain`, `OpenAI` |
