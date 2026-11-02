@@ -91,36 +91,6 @@ Beyond AI, I engineer foundational workflow tools and developer tooling focused 
 
 ---
 
-## 🏆 Verified GitHub Achievements
-
-<div align="center">
-  <a href="https://github.com/shenald-dev?tab=achievements">
-    <img src="https://img.shields.io/badge/%F0%9F%A6%88_PULL_SHARK-GOLD_x4_(1%2C157%2B_PRs)-ffd700?style=for-the-badge&logo=github&logoColor=ffd700&labelColor=0d1117" alt="Pull Shark Gold x4" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev?tab=achievements">
-    <img src="https://img.shields.io/badge/%F0%9F%91%A5_PAIR_EXTRAORDINAIRE-GOLD_x4-ffd700?style=for-the-badge&logo=github&logoColor=ffd700&labelColor=0d1117" alt="Pair Extraordinaire Gold x4" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev?tab=achievements">
-    <img src="https://img.shields.io/badge/%E2%9A%A1_QUICKDRAW-UNLOCKED-00d4ff?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117" alt="Quickdraw" />
-  </a>
-  <br /><br />
-  <a href="https://github.com/shenald-dev?tab=achievements">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80_YOLO-UNLOCKED-ff007f?style=for-the-badge&logo=github&logoColor=ff007f&labelColor=0d1117" alt="YOLO" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev?tab=achievements">
-    <img src="https://img.shields.io/badge/%E2%AD%90_STARSTRUCK-BASE_(29%E2%98%85)-ffb703?style=for-the-badge&logo=github&logoColor=ffb703&labelColor=0d1117" alt="Starstruck" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev?tab=achievements">
-    <img src="https://img.shields.io/badge/%F0%9F%A7%A0_GALAXY_BRAIN-IN_PROGRESS_(0%2F2)-64748b?style=for-the-badge&logo=github&logoColor=94a3b8&labelColor=0d1117" alt="Galaxy Brain In Progress" />
-  </a>
-</div>
-
----
-
 ## 📊 Vibe Telemetry
 
 <div align="center">
