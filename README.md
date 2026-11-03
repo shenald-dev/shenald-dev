@@ -36,40 +36,17 @@
     <img src="https://img.shields.io/badge/%E2%9A%A1_NEW_RELEASE-agentwire_v0.1.0-8b5cf6?style=for-the-badge&logo=wireshark&logoColor=white" alt="New Release Agentwire" />
   </a>
   &nbsp;
-  <a href="https://www.npmjs.com/package/@shenald/agentwire">
-    <img src="https://img.shields.io/npm/v/@shenald/agentwire.svg?style=for-the-badge&color=8b5cf6&labelColor=0d1117" alt="npm version" />
-  </a>
-  &nbsp;
   <a href="https://github.com/shenald-dev/termlens">
     <img src="https://img.shields.io/badge/%F0%9F%94%8D_NEW_RELEASE-termlens_v0.1.0-00f0ff?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="New Release Termlens" />
-  </a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/termlens">
-    <img src="https://img.shields.io/npm/v/termlens.svg?style=for-the-badge&color=00f0ff&labelColor=0d1117" alt="npm version" />
   </a>
   &nbsp;
   <a href="https://github.com/shenald-dev/bonsai">
     <img src="https://img.shields.io/badge/%F0%9F%8C%B1_FLAGSHIP-bonsai_v0.1.0-2ea44f?style=for-the-badge&logo=tree&logoColor=white" alt="Flagship Release Bonsai" />
   </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev/prism">
-    <img src="https://img.shields.io/badge/%F0%9F%92%8E_NEW-prism_v0.1.0-00d4ff?style=for-the-badge&logo=target&logoColor=white" alt="New Release Prism" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev/sober">
-    <img src="https://img.shields.io/badge/%F0%9F%8D%B8_NEW-sober_v0.1.0-ff007f?style=for-the-badge&logo=shield&logoColor=white" alt="New Release Sober" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/shenald-dev/purge">
-    <img src="https://img.shields.io/badge/%F0%9F%A7%B9_NEW-purge_v0.1.0-00ff88?style=for-the-badge&logo=sparkles&logoColor=black" alt="New Release Purge" />
-  </a>
   <p>
     <b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b> — <i>The Wireshark & Live Time-Travel Debugger for AI Agents & MCP Workflows. Breakpoints, token waterfalls, & time-travel replay.</i><br/>
     <b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b> — <i>Zero-Token Terminal Compactor & Semantic Error Lens for AI Agents. Strips 90%+ terminal bloat. (&lt;3ms)</i><br/>
     <b>🌱 <a href="https://github.com/shenald-dev/bonsai">bonsai</a></b> — <i>The art of cultivating massive foundation models into pocket-sized intelligences on consumer silicon. (&lt;35s)</i><br/>
-    <b>💎 <a href="https://github.com/shenald-dev/prism">prism</a></b> — <i>Topological Blast Radius & Invariant Radar for AI code. Know what broke before you commit. (&lt;50ms)</i><br/>
-    <b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a></b> — <i>The Vibe Coding Hangover Cure. Audit AI hallucinations, ghost code, and secret leaks. (&lt;500ms)</i><br/>
-    <b>🧹 <a href="https://github.com/shenald-dev/purge">purge</a></b> — <i>Developer Bloat & Zombie Reaper. Parallel disk scanner and dev server hunter on :3000. (&lt;3s)</i>
   </p>
 </div>
 
