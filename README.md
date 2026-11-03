@@ -32,6 +32,14 @@
 <br />
 
 <div align="center">
+  <a href="https://github.com/shenald-dev/agentwire">
+    <img src="https://img.shields.io/badge/%E2%9A%A1_NEW_RELEASE-agentwire_v0.1.0-8b5cf6?style=for-the-badge&logo=wireshark&logoColor=white" alt="New Release Agentwire" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/package/@shenald/agentwire">
+    <img src="https://img.shields.io/npm/v/@shenald/agentwire.svg?style=for-the-badge&color=8b5cf6&labelColor=0d1117" alt="npm version" />
+  </a>
+  &nbsp;
   <a href="https://github.com/shenald-dev/termlens">
     <img src="https://img.shields.io/badge/%F0%9F%94%8D_NEW_RELEASE-termlens_v0.1.0-00f0ff?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="New Release Termlens" />
   </a>
@@ -56,6 +64,7 @@
     <img src="https://img.shields.io/badge/%F0%9F%A7%B9_NEW-purge_v0.1.0-00ff88?style=for-the-badge&logo=sparkles&logoColor=black" alt="New Release Purge" />
   </a>
   <p>
+    <b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b> — <i>The Wireshark & Live Time-Travel Debugger for AI Agents & MCP Workflows. Breakpoints, token waterfalls, & time-travel replay.</i><br/>
     <b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b> — <i>Zero-Token Terminal Compactor & Semantic Error Lens for AI Agents. Strips 90%+ terminal bloat. (&lt;3ms)</i><br/>
     <b>🌱 <a href="https://github.com/shenald-dev/bonsai">bonsai</a></b> — <i>The art of cultivating massive foundation models into pocket-sized intelligences on consumer silicon. (&lt;35s)</i><br/>
     <b>💎 <a href="https://github.com/shenald-dev/prism">prism</a></b> — <i>Topological Blast Radius & Invariant Radar for AI code. Know what broke before you commit. (&lt;50ms)</i><br/>
@@ -74,6 +83,7 @@ I specialize in building intelligent applications and autonomous agents. Below a
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| ⚡ **[agentwire](https://github.com/shenald-dev/agentwire)** | **The Wireshark & Time-Travel Debugger for AI Agents** `(@shenald/agentwire)`. Wiretap MCP streams, pause on dangerous commands with breakpoints, inspect token waterfalls, and time-travel replay agent trajectories in a dark-mode web dashboard. | `TypeScript`, `Node.js`, `MCP`, `SSE` |
 | 🔍 **[termlens](https://github.com/shenald-dev/termlens)** | **Zero-Token Terminal Compactor & Semantic Error Lens** *(Published on npm)*. Runs test/build commands, strips 90%+ noise, isolates root causes, and exposes native MCP tools for Claude & Cursor. | `TypeScript`, `Node.js`, `MCP`, `PTY` |
 | 🌱 **[bonsai](https://github.com/shenald-dev/bonsai)** | **Zero-Knowledge Local Micro-Model Distiller**. Cultivates massive LLMs into pocket-sized intelligences (0.5B-1.5B) on consumer PCs. Zero-OOM guard, blind holdout proof engine. | `Python`, `PyTorch`, `PEFT`, `Typer` |
 | 🌌 **[SHEN AI](https://github.com/shenald-dev/shen-ai)** | **Autonomous Coding Agent**. A superior multi-agent AI coding assistant that thinks ahead, learns your style, and builds autonomously inside VS Code. | `TypeScript`, `React`, `Anthropic/OpenAI` |
