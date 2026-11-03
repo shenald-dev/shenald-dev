@@ -32,22 +32,31 @@
 <br />
 
 <div align="center">
+  <a href="https://github.com/shenald-dev/termlens">
+    <img src="https://img.shields.io/badge/%F0%9F%94%8D_NEW_RELEASE-termlens_v0.1.0-00f0ff?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="New Release Termlens" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/package/termlens">
+    <img src="https://img.shields.io/npm/v/termlens.svg?style=for-the-badge&color=00f0ff&labelColor=0d1117" alt="npm version" />
+  </a>
+  &nbsp;
   <a href="https://github.com/shenald-dev/bonsai">
-    <img src="https://img.shields.io/badge/%F0%9F%8C%B1_FLAGSHIP_RELEASE-bonsai_v0.1.0-2ea44f?style=for-the-badge&logo=tree&logoColor=white" alt="Flagship Release Bonsai" />
+    <img src="https://img.shields.io/badge/%F0%9F%8C%B1_FLAGSHIP-bonsai_v0.1.0-2ea44f?style=for-the-badge&logo=tree&logoColor=white" alt="Flagship Release Bonsai" />
   </a>
   &nbsp;
   <a href="https://github.com/shenald-dev/prism">
-    <img src="https://img.shields.io/badge/%F0%9F%92%8E_NEW_RELEASE-prism_v0.1.0-00d4ff?style=for-the-badge&logo=target&logoColor=white" alt="New Release Prism" />
+    <img src="https://img.shields.io/badge/%F0%9F%92%8E_NEW-prism_v0.1.0-00d4ff?style=for-the-badge&logo=target&logoColor=white" alt="New Release Prism" />
   </a>
   &nbsp;
   <a href="https://github.com/shenald-dev/sober">
-    <img src="https://img.shields.io/badge/%F0%9F%8D%B8_NEW_RELEASE-sober_v0.1.0-ff007f?style=for-the-badge&logo=shield&logoColor=white" alt="New Release Sober" />
+    <img src="https://img.shields.io/badge/%F0%9F%8D%B8_NEW-sober_v0.1.0-ff007f?style=for-the-badge&logo=shield&logoColor=white" alt="New Release Sober" />
   </a>
   &nbsp;
   <a href="https://github.com/shenald-dev/purge">
-    <img src="https://img.shields.io/badge/%F0%9F%A7%B9_NEW_RELEASE-purge_v0.1.0-00ff88?style=for-the-badge&logo=sparkles&logoColor=black" alt="New Release Purge" />
+    <img src="https://img.shields.io/badge/%F0%9F%A7%B9_NEW-purge_v0.1.0-00ff88?style=for-the-badge&logo=sparkles&logoColor=black" alt="New Release Purge" />
   </a>
   <p>
+    <b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b> — <i>Zero-Token Terminal Compactor & Semantic Error Lens for AI Agents. Strips 90%+ terminal bloat. (&lt;3ms)</i><br/>
     <b>🌱 <a href="https://github.com/shenald-dev/bonsai">bonsai</a></b> — <i>The art of cultivating massive foundation models into pocket-sized intelligences on consumer silicon. (&lt;35s)</i><br/>
     <b>💎 <a href="https://github.com/shenald-dev/prism">prism</a></b> — <i>Topological Blast Radius & Invariant Radar for AI code. Know what broke before you commit. (&lt;50ms)</i><br/>
     <b>🍸 <a href="https://github.com/shenald-dev/sober">sober</a></b> — <i>The Vibe Coding Hangover Cure. Audit AI hallucinations, ghost code, and secret leaks. (&lt;500ms)</i><br/>
@@ -65,10 +74,11 @@ I specialize in building intelligent applications and autonomous agents. Below a
 
 | Repository | Description | Tech Stack |
 | :--- | :--- | :--- |
+| 🔍 **[termlens](https://github.com/shenald-dev/termlens)** | **Zero-Token Terminal Compactor & Semantic Error Lens** *(Published on npm)*. Runs test/build commands, strips 90%+ noise, isolates root causes, and exposes native MCP tools for Claude & Cursor. | `TypeScript`, `Node.js`, `MCP`, `PTY` |
 | 🌱 **[bonsai](https://github.com/shenald-dev/bonsai)** | **Zero-Knowledge Local Micro-Model Distiller**. Cultivates massive LLMs into pocket-sized intelligences (0.5B-1.5B) on consumer PCs. Zero-OOM guard, blind holdout proof engine. | `Python`, `PyTorch`, `PEFT`, `Typer` |
 | 🌌 **[SHEN AI](https://github.com/shenald-dev/shen-ai)** | **Autonomous Coding Agent**. A superior multi-agent AI coding assistant that thinks ahead, learns your style, and builds autonomously inside VS Code. | `TypeScript`, `React`, `Anthropic/OpenAI` |
-| 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder**. Give it a prompt, and it scaffolds a gorgeous Next.js frontend, FastAPI backend, Docker setup, and CI/CD pipelines instantly. | `TypeScript`, `Handlebars`, `OpenRouter API` |
-| 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent**. An intelligent CLI powered by LangChain that automatically scours the web to write deep-dive markdown reports seamlessly. | `TypeScript`, `LangChain`, `OpenAI` |
+| 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder** `(@shenald/agentforge)`. Prompt-to-Next.js 15, FastAPI, Docker Compose & CI/CD pipelines in seconds with Mermaid architecture planner. | `TypeScript`, `Handlebars`, `OpenRouter API` |
+| 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent** `(@shenald/autoresearch-agent)`. Intelligent CLI powered by LangChain that scours the web to write deep-dive markdown & HTML reports. | `TypeScript`, `LangChain`, `OpenAI` |
 | 🧬 **[CodeDNA](https://github.com/shenald-dev/codedna)** | **Software Intelligence Analyzer**. Reverse-engineers any codebase to generate interactive "DNA profiles" analyzing architecture, dependencies, and developer patterns. | `Python`, `NetworkX`, `Mermaid` |
 | 💬 **[AI WhatsApp Intelligence](https://github.com/shenald-dev/ai-whatsapp-intelligence)** | **Real-Time Group Chat Monitor**. Fully automated AI system tracking live conversations, extracting sentiment, tasks, and trends with vector memory. | `FastAPI`, `Next.js`, `LangChain` |
 | ⚡ **[one-api](https://github.com/shenald-dev/one-api)** | **Universal Edge LLM Gateway**. Single binary, zero-config API gateway routing inferences to 20+ top-tier LLM providers. | `TypeScript`, `Hono.js`, `Vercel Edge` |
