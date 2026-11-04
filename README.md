@@ -2,7 +2,7 @@
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=AI+Systems+Architect;Creative+Vibe+Coder+%E2%9C%A8;Creator+of+agentwire+%26+termlens;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
 
-  <p><i>Turning caffeine, low-level streaming protocols, and flow state into strictly-typed AI architectures.</i></p>
+  <p><i>Prompting like a poet, debugging like a hostage negotiator.</i></p>
 
   <p>
     <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
