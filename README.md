@@ -1,27 +1,33 @@
 <div align="center">
 
+  <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="assets/hero_reactor_ultrawide.gif" alt="Autoplaying 3D Quantum Reactor Core" width="100%" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0, 212, 255, 0.25);" />
+  </a>
+
+  <br/><br/>
+
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=Senior+AI+Systems+Architect;Creator+of+agentwire+%26+termlens;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
 
   <p><i>Turning caffeine, low-level streaming protocols, and foundation models into strictly-typed AI architectures.</i></p>
 
   <p>
     <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/%F0%9F%8C%90_3D_PORTFOLIO-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
+      <img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_3D_PORTFOLIO-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
     </a>
     &nbsp;
     <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/%F0%9F%93%96_CASE_STUDY-DEV.to-0a0a0a?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=030712" alt="DEV.to Engineering Case Study" />
+      <img src="https://img.shields.io/badge/%F0%9F%93%96_DEV.to_ENGINEERING_CASE_STUDY-We_Measured_1%2C500_Lines...-0a0a0a?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=030712" alt="DEV.to Engineering Case Study" />
     </a>
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/MCP_Protocol-8b5cf6?style=flat-square&logo=openai&logoColor=white" alt="MCP"/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-    <img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/MCP-8b5cf6?style=for-the-badge&logo=openai&logoColor=white" alt="MCP"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/></a>
   </p>
 
 </div>
