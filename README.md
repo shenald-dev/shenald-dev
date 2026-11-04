@@ -30,38 +30,129 @@
 
 ### ⚡ Flagship AI Infrastructure
 
-| Repository | Description & Impact | Tech Stack / Quickstart |
-| :--- | :--- | :--- |
-| **⚡ [agentwire](https://github.com/shenald-dev/agentwire)**<br/>[![npm](https://img.shields.io/npm/v/@shenald/agentwire.svg?style=flat-square&color=8b5cf6)](https://www.npmjs.com/package/@shenald/agentwire) | **The Wireshark for AI Agents & MCP Workflows** — Real-time passive stream wiretap, dangerous command breakpoints (`rm -rf`, secrets), token waterfalls & step-by-step trajectory replay. | `npx @shenald/agentwire`<br/>`TypeScript` • `Node.js` • `MCP` |
-| **🔍 [termlens](https://github.com/shenald-dev/termlens)**<br/>[![npm](https://img.shields.io/npm/v/termlens.svg?style=flat-square&color=00f0ff)](https://www.npmjs.com/package/termlens) | **Zero-Token Terminal Compactor & Semantic Lens** — Strips 97.3% terminal bloat in <2.5ms for LLMs. Semantic lenses for Jest, TSC, Pytest, Docker. 📖 **[DEV.to Case Study](https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4)** | `npx termlens npm test`<br/>`TypeScript` • `Node.js` • `PTY` |
-| **🌱 [bonsai](https://github.com/shenald-dev/bonsai)**<br/>[![v0.1.0](https://img.shields.io/badge/release-v0.1.0-2ea44f?style=flat-square)](https://github.com/shenald-dev/bonsai) | **Zero-Knowledge Local Micro-Model Distiller** — Cultivates massive foundation models into pocket-sized 0.5B–1.5B edge models on consumer silicon in <35s with zero-OOM guard. | `python -m bonsai train`<br/>`Python` • `PyTorch` • `PEFT` |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="26%" align="left">Repository</th>
+      <th width="52%" align="left">Description & Impact</th>
+      <th width="22%" align="left">Tech Stack / Quickstart</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://img.shields.io/npm/v/@shenald/agentwire.svg?style=flat-square&color=8b5cf6" alt="npm" /></a></td>
+      <td><b>The Wireshark for AI Agents & MCP Workflows</b> — Real-time passive stream wiretap, dangerous command breakpoints (<code>rm -rf</code>, secrets), token waterfalls & step-by-step trajectory replay.</td>
+      <td><code>npx @shenald/agentwire</code><br/><code>TypeScript</code> • <code>Node.js</code> • <code>MCP</code></td>
+    </tr>
+    <tr>
+      <td><b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b><br/><a href="https://www.npmjs.com/package/termlens"><img src="https://img.shields.io/npm/v/termlens.svg?style=flat-square&color=00f0ff" alt="npm" /></a></td>
+      <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms for LLMs. Semantic lenses for Jest, TSC, Pytest, Docker. 📖 <b><a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a></b></td>
+      <td><code>npx termlens npm test</code><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
+    </tr>
+    <tr>
+      <td><b>🌱 <a href="https://github.com/shenald-dev/bonsai">bonsai</a></b><br/><a href="https://github.com/shenald-dev/bonsai"><img src="https://img.shields.io/badge/release-v0.1.0-2ea44f?style=flat-square" alt="v0.1.0" /></a></td>
+      <td><b>Zero-Knowledge Local Micro-Model Distiller</b> — Cultivates massive foundation models into pocket-sized 0.5B–1.5B edge models on consumer silicon in &lt;35s with zero-OOM guard.</td>
+      <td><code>python -m bonsai train</code><br/><code>Python</code> • <code>PyTorch</code> • <code>PEFT</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### 🚀 Autonomous Systems & AI Architecture
 
-| Repository | Description & Impact | Tech Stack / Quickstart |
-| :--- | :--- | :--- |
-| 🌌 **[SHEN AI](https://github.com/shenald-dev/shen-ai)** | **Autonomous Coding Agent** — Multi-agent AI assistant that predicts developer intentions, adapts to style, and executes multi-file workflows in VS Code. | `TypeScript` • `React` • `OpenAI` |
-| 🛡️ **[AgentForge](https://github.com/shenald-dev/agentforge)** | **Autonomous Full-Stack App Builder** — Prompt-to-Next.js 15, FastAPI, Docker Compose & CI/CD pipelines in seconds with Mermaid architecture planner. | `TypeScript` • `Handlebars` • `Hono` |
-| 🤖 **[AutoResearch-Agent](https://github.com/shenald-dev/autoresearch-agent)** | **Modular AI Research Agent** — Autonomous research CLI powered by LangChain that scours the web to produce verified deep-dive reports. | `TypeScript` • `LangChain` • `OpenAI` |
-| 🧬 **[CodeDNA](https://github.com/shenald-dev/codedna)** | **Software Intelligence Analyzer** — Reverse-engineers codebases into interactive architectural DNA profiles, dependency graphs, and complexity metrics. | `Python` • `NetworkX` • `Mermaid` |
-| 💬 **[AI WhatsApp Intelligence](https://github.com/shenald-dev/ai-whatsapp-intelligence)** | **Real-Time Group Chat Monitor** — Automated intelligence system tracking live group threads, extracting sentiment, tasks, and trends with vector memory. | `FastAPI` • `Next.js` • `LangChain` |
-| ⚡ **[one-api](https://github.com/shenald-dev/one-api)** | **Universal Edge LLM Gateway** — Single binary, zero-config API gateway routing inferences to 20+ top-tier LLM providers with unified billing and fallback. | `TypeScript` • `Hono.js` • `Vercel Edge` |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="26%" align="left">Repository</th>
+      <th width="52%" align="left">Description & Impact</th>
+      <th width="22%" align="left">Tech Stack / Quickstart</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🌌 <b><a href="https://github.com/shenald-dev/shen-ai">SHEN AI</a></b></td>
+      <td><b>Autonomous Coding Agent</b> — Multi-agent AI assistant that predicts developer intentions, adapts to style, and executes multi-file workflows in VS Code.</td>
+      <td><code>TypeScript</code> • <code>React</code> • <code>OpenAI</code></td>
+    </tr>
+    <tr>
+      <td>🛡️ <b><a href="https://github.com/shenald-dev/agentforge">AgentForge</a></b></td>
+      <td><b>Autonomous Full-Stack App Builder</b> — Prompt-to-Next.js 15, FastAPI, Docker Compose & CI/CD pipelines in seconds with Mermaid architecture planner.</td>
+      <td><code>TypeScript</code> • <code>Handlebars</code> • <code>Hono</code></td>
+    </tr>
+    <tr>
+      <td>🤖 <b><a href="https://github.com/shenald-dev/autoresearch-agent">AutoResearch-Agent</a></b></td>
+      <td><b>Modular AI Research Agent</b> — Autonomous research CLI powered by LangChain that scours the web to produce verified deep-dive reports.</td>
+      <td><code>TypeScript</code> • <code>LangChain</code> • <code>OpenAI</code></td>
+    </tr>
+    <tr>
+      <td>🧬 <b><a href="https://github.com/shenald-dev/codedna">CodeDNA</a></b></td>
+      <td><b>Software Intelligence Analyzer</b> — Reverse-engineers codebases into interactive architectural DNA profiles, dependency graphs, and complexity metrics.</td>
+      <td><code>Python</code> • <code>NetworkX</code> • <code>Mermaid</code></td>
+    </tr>
+    <tr>
+      <td>💬 <b><a href="https://github.com/shenald-dev/ai-whatsapp-intelligence">AI WhatsApp Intelligence</a></b></td>
+      <td><b>Real-Time Group Chat Monitor</b> — Automated intelligence system tracking live group threads, extracting sentiment, tasks, and trends with vector memory.</td>
+      <td><code>FastAPI</code> • <code>Next.js</code> • <code>LangChain</code></td>
+    </tr>
+    <tr>
+      <td>⚡ <b><a href="https://github.com/shenald-dev/one-api">one-api</a></b></td>
+      <td><b>Universal Edge LLM Gateway</b> — Single binary, zero-config API gateway routing inferences to 20+ top-tier LLM providers with unified billing and fallback.</td>
+      <td><code>TypeScript</code> • <code>Hono.js</code> • <code>Vercel Edge</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### ⚙️ High-Performance Mechanics & Developer Tooling
 
-| Repository | Description & Impact | Tech Stack / Quickstart |
-| :--- | :--- | :--- |
-| 🧹 **[purge](https://github.com/shenald-dev/purge)** | **Developer Bloat & Zombie Reaper** — Parallel directory scanner and dev server hunter. Purges `node_modules`, `target`, `.venv`, and slays port hogs on `:3000` in 3s. | `Python` • `Typer` • `Rich` |
-| 💎 **[prism](https://github.com/shenald-dev/prism)** | **Topological Blast Radius Radar** — Zero-latency (<50ms) topological call-graph & contract invariant analyzer. Pinpoints every broken downstream caller. | `Python` • `Typer` • `AST` |
-| 🍸 **[sober](https://github.com/shenald-dev/sober)** | **The Vibe Coding Hangover Cure** — Ultra-fast (<500ms) zero-config CLI auditing AI hallucinations, ghost code, secret leaks, and slopsquatting. | `Python` • `Typer` • `Rich` |
-| 🧠 **[catalyst](https://github.com/shenald-dev/catalyst)** | **Parallel DAG Workflow Engine** — Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python with benchmarking. | `Python` • `FastAPI` • `NetworkX` |
-| 🎭 **[moq](https://github.com/shenald-dev/moq)** | **Zero-Config Mock Server** — Lightning-fast Express-based server to instantly mock REST endpoints during frontend development without configuration friction. | `TypeScript` • `Express` |
-| 🧘‍♂️ **[zen](https://github.com/shenald-dev/zen)** / **[echo](https://github.com/shenald-dev/echo)** | **Minimalist Developer Toolbelt** — Deep-work terminal timers and ultra-lightweight zero-config file watchers to keep your CLI vibe undisturbed. | `Python` • `Bash` |
-| ✨ **[vibe](https://github.com/shenald-dev/vibe)** | **Minimalist Project Scaffolding Engine** — Generates beautifully tuned full-stack templates instantly via a visually stunning TUI without writing boilerplate. | `Python` • `Typer` • `Rich` |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="26%" align="left">Repository</th>
+      <th width="52%" align="left">Description & Impact</th>
+      <th width="22%" align="left">Tech Stack / Quickstart</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🧹 <b><a href="https://github.com/shenald-dev/purge">purge</a></b></td>
+      <td><b>Developer Bloat & Zombie Reaper</b> — Parallel directory scanner and dev server hunter. Purges <code>node_modules</code>, <code>target</code>, <code>.venv</code>, and slays port hogs on <code>:3000</code> in 3s.</td>
+      <td><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
+    </tr>
+    <tr>
+      <td>💎 <b><a href="https://github.com/shenald-dev/prism">prism</a></b></td>
+      <td><b>Topological Blast Radius Radar</b> — Zero-latency (&lt;50ms) topological call-graph & contract invariant analyzer. Pinpoints every broken downstream caller.</td>
+      <td><code>Python</code> • <code>Typer</code> • <code>AST</code></td>
+    </tr>
+    <tr>
+      <td>🍸 <b><a href="https://github.com/shenald-dev/sober">sober</a></b></td>
+      <td><b>The Vibe Coding Hangover Cure</b> — Ultra-fast (&lt;500ms) zero-config CLI auditing AI hallucinations, ghost code, secret leaks, and slopsquatting.</td>
+      <td><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
+    </tr>
+    <tr>
+      <td>🧠 <b><a href="https://github.com/shenald-dev/catalyst">catalyst</a></b></td>
+      <td><b>Parallel DAG Workflow Engine</b> — Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python with benchmarking.</td>
+      <td><code>Python</code> • <code>FastAPI</code> • <code>NetworkX</code></td>
+    </tr>
+    <tr>
+      <td>🎭 <b><a href="https://github.com/shenald-dev/moq">moq</a></b></td>
+      <td><b>Zero-Config Mock Server</b> — Lightning-fast Express-based server to instantly mock REST endpoints during frontend development without configuration friction.</td>
+      <td><code>TypeScript</code> • <code>Express</code></td>
+    </tr>
+    <tr>
+      <td>🧘‍♂️ <b><a href="https://github.com/shenald-dev/zen">zen</a></b> / <b><a href="https://github.com/shenald-dev/echo">echo</a></b></td>
+      <td><b>Minimalist Developer Toolbelt</b> — Deep-work terminal timers and ultra-lightweight zero-config file watchers to keep your CLI vibe undisturbed.</td>
+      <td><code>Python</code> • <code>Bash</code></td>
+    </tr>
+    <tr>
+      <td>✨ <b><a href="https://github.com/shenald-dev/vibe">vibe</a></b></td>
+      <td><b>Minimalist Project Scaffolding Engine</b> — Generates beautifully tuned full-stack templates instantly via a visually stunning TUI without writing boilerplate.</td>
+      <td><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
