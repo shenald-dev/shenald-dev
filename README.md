@@ -1,14 +1,8 @@
 <div align="center">
 
-  <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="assets/hero_reactor_ultrawide.gif" alt="Autoplaying 3D Quantum Reactor Core" width="100%" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0, 212, 255, 0.25);" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=Senior+AI+Systems+Architect;Creative+Vibe+Coder+%E2%9C%A8;Creator+of+agentwire+%26+termlens;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
 
-  <br/><br/>
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=Senior+AI+Systems+Architect;Creator+of+agentwire+%26+termlens;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
-
-  <p><i>Turning caffeine, low-level streaming protocols, and foundation models into strictly-typed AI architectures.</i></p>
+  <p><i>Turning caffeine, low-level streaming protocols, and flow state into strictly-typed AI architectures.</i></p>
 
   <p>
     <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
