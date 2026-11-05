@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=AI+Systems+Architect;Creative+Vibe+Coder+%E2%9C%A8;Creator+of+agentwire+%26+termlens;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00d4ff&center=true&vCenter=true&width=800&lines=AI+Systems+Architect;Creator+of+GliaCore+%F0%9F%A7%A0;Creator+of+agentwire+%26+termlens;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1;Creative+Vibe+Coder+%E2%9C%A8" alt="Typing SVG" />
 
   <p><i>Prompting like a poet, debugging like a hostage negotiator.</i></p>
 
@@ -9,8 +9,12 @@
       <img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_3D_PORTFOLIO-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
     </a>
     &nbsp;
+    <a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/%F0%9F%A7%A0_DEV.to_CASE_STUDY-Zero--Hallucination_Micro--AI_on_4GB_GPU-8b5cf6?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=030712" alt="DEV.to Engineering Case Study: GliaCore" />
+    </a>
+    &nbsp;
     <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/%F0%9F%93%96_DEV.to_ENGINEERING_CASE_STUDY-We_Measured_1%2C500_Lines...-0a0a0a?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=030712" alt="DEV.to Engineering Case Study" />
+      <img src="https://img.shields.io/badge/%F0%9F%93%96_DEV.to_CASE_STUDY-Terminal_Bloat_Compactor-0a0a0a?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=030712" alt="DEV.to Engineering Case Study: termlens" />
     </a>
   </p>
 
@@ -39,6 +43,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><b>🧠 <a href="https://github.com/shenald-dev/gliacore">gliacore</a></b><br/><a href="https://github.com/shenald-dev/gliacore/releases"><img src="https://img.shields.io/badge/release-v0.3.0-8b5cf6?style=flat-square" alt="v0.3.0" /></a> <a href="https://github.com/shenald-dev/gliacore/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue?style=flat-square" alt="GPLv3" /></a></td>
+      <td><b>Edge-Optimized Modular Micro-AI Collective Intelligence Ecosystem</b> — Astrocyte-Neuron architecture with active NVIDIA GPU acceleration (Qwen2.5 on RTX 2050 4GB). 0% Math Hallucination via SymPy, self-repairing AST code sandbox, &lt;0.2ms reflex security gateway, and 4-tier persistent memory. 📖 <b><a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc">DEV.to Case Study</a></b></td>
+      <td><code>.\run_gliacore.bat</code><br/><code>Python</code> • <code>PyTorch</code> • <code>CUDA/TF32</code> • <code>SymPy</code></td>
+    </tr>
     <tr>
       <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://img.shields.io/npm/v/@shenald/agentwire.svg?style=flat-square&color=8b5cf6" alt="npm" /></a></td>
       <td><b>The Wireshark for AI Agents & MCP Workflows</b> — Real-time passive stream wiretap, dangerous command breakpoints (<code>rm -rf</code>, secrets), token waterfalls & step-by-step trajectory replay.</td>
