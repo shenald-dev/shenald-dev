@@ -1,31 +1,8 @@
 <div align="center">
 
   <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="assets/cinema_banner.gif" width="100%" alt="Shenald 3D Experience" style="border-radius: 8px;" />
+    <img src="assets/hud_quantum_new.gif" width="100%" alt="Shenald — AI Systems Architect & Autonomous Agent Infrastructure" style="border-radius: 10px;" />
   </a>
-
-  <br /><br />
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=00d4ff&center=true&vCenter=true&width=800&lines=AI+Systems+Architect;Creator+of+GliaCore+%F0%9F%A7%A0+%26+Spinmux+%F0%9F%9A%80;Creator+of+Capsule+%F0%9F%92%8A+%26+Agentwire+%E2%9A%A1;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
-
-  <p><i>Prompting like a poet, debugging like a hostage negotiator.</i></p>
-
-  <p>
-    <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_3D_PORTFOLIO-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
-    </a>
-  </p>
-
-  <p>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" alt="Python"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=white" alt="Rust"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/MCP_Protocol-8b5cf6?style=flat-square&logo=openai&logoColor=white" alt="MCP"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/></a>
-    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" alt="Docker"/></a>
-  </p>
 
 </div>
 
