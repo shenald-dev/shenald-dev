@@ -5,6 +5,10 @@
   <p><i>Prompting like a poet, debugging like a hostage negotiator.</i></p>
 
   <p>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1800&color=00F0FF&background=0D1117FF&center=true&vCenter=true&width=820&height=45&lines=%E2%9A%A1+%5BBOOT%5D+RTX+2050+4GB+CUDA+12.8+%E2%80%A2+Tensor+Cores%3A+ONLINE+%E2%80%A2+TF32%3A+ENABLED;%F0%9F%A7%A0+%5BGLIACORE%5D+Astrocyte+Reflex+Gateway+%3C0.2ms+%E2%80%A2+SymPy+Engine%3A+0%25+Math+Hallucination;%F0%9F%9A%80+%5BSPINMUX%5D+Windows+Job+Objects+Tree+Containment+%E2%80%A2+Hyper+Proxy+*.localhost%3A8080;%F0%9F%92%8A+%5BCAPSULE%5D+Terminal+Flight+Recorder+Armed+%E2%80%A2+AI+Incident+Bundler%3A+STANDBY" alt="Mission Control HUD" />
+  </p>
+
+  <p>
     <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_3D_PORTFOLIO-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712" alt="Live Portfolio Website" />
     </a>
