@@ -1,5 +1,11 @@
 <div align="center">
 
+  <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="assets/cinema_banner.gif" width="100%" alt="Shenald 3D Experience" style="border-radius: 8px;" />
+  </a>
+
+  <br /><br />
+
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=00d4ff&center=true&vCenter=true&width=800&lines=AI+Systems+Architect;Creator+of+GliaCore+%F0%9F%A7%A0+%26+Spinmux+%F0%9F%9A%80;Creator+of+Capsule+%F0%9F%92%8A+%26+Agentwire+%E2%9A%A1;Autonomous+Agent+Infrastructure+%E2%9A%A1;Distilling+Local+Silicon+Models+%F0%9F%8C%B1" alt="Typing SVG" />
 
   <p><i>Prompting like a poet, debugging like a hostage negotiator.</i></p>
