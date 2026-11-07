@@ -21,6 +21,7 @@
   <p>
     <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/></a>
     <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" alt="Python"/></a>
+    <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=white" alt="Rust"/></a>
     <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/MCP_Protocol-8b5cf6?style=flat-square&logo=openai&logoColor=white" alt="MCP"/></a>
     <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/></a>
     <a href="https://github.com/shenald-dev"><img src="https://img.shields.io/badge/Next.js_15-black?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/></a>
@@ -44,7 +45,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>🧠 <a href="https://github.com/shenald-dev/gliacore">gliacore</a></b><br/><a href="https://github.com/shenald-dev/gliacore/releases"><img src="https://img.shields.io/badge/release-v0.3.0-8b5cf6?style=flat-square" alt="v0.3.0" /></a> <a href="https://github.com/shenald-dev/gliacore/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue?style=flat-square" alt="GPLv3" /></a></td>
+      <td><b>🧠 <a href="https://github.com/shenald-dev/gliacore">gliacore</a></b><br/><a href="https://github.com/shenald-dev/gliacore/releases"><img src="https://img.shields.io/badge/release-v0.4.0-8b5cf6?style=flat-square" alt="v0.4.0" /></a> <a href="https://github.com/shenald-dev/gliacore/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue?style=flat-square" alt="GPLv3" /></a></td>
       <td><b>Edge-Optimized Modular Micro-AI Collective Intelligence Ecosystem</b> — Astrocyte-Neuron architecture with active NVIDIA GPU acceleration (Qwen2.5 on RTX 2050 4GB). 0% Math Hallucination via SymPy, self-repairing AST code sandbox, &lt;0.2ms reflex security gateway, and 4-tier persistent memory. 📖 <b><a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc">DEV.to Case Study</a></b></td>
       <td><code>.\run_gliacore.bat</code><br/><code>Python</code> • <code>PyTorch</code> • <code>CUDA/TF32</code> • <code>SymPy</code></td>
     </tr>
@@ -57,6 +58,11 @@
       <td><b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b><br/><a href="https://www.npmjs.com/package/termlens"><img src="https://img.shields.io/npm/v/termlens.svg?style=flat-square&color=00f0ff" alt="npm" /></a></td>
       <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms for LLMs. Semantic lenses for Jest, TSC, Pytest, Docker. 📖 <b><a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a></b></td>
       <td><code>npx termlens npm test</code><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
+    </tr>
+    <tr>
+      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b><br/><a href="https://www.npmjs.com/package/@shenald/capsule"><img src="https://img.shields.io/npm/v/@shenald/capsule.svg?style=flat-square&color=8b5cf6" alt="npm" /></a> <a href="https://github.com/shenald-dev/capsule/releases"><img src="https://img.shields.io/badge/release-v0.1.0-2ea44f?style=flat-square" alt="v0.1.0" /></a></td>
+      <td><b>The Flight Recorder for Terminal Commands</b> — Intercepts execution failures, compresses terminal noise, and packages deterministic reproduction incident bundles for AI coding agents.</td>
+      <td><code>npx @shenald/capsule run npm test</code><br/><code>TypeScript</code> • <code>Node.js</code> • <code>AST</code></td>
     </tr>
     <tr>
       <td><b>🌱 <a href="https://github.com/shenald-dev/bonsai">bonsai</a></b><br/><a href="https://github.com/shenald-dev/bonsai"><img src="https://img.shields.io/badge/release-v0.1.0-2ea44f?style=flat-square" alt="v0.1.0" /></a></td>
@@ -95,9 +101,9 @@
       <td><code>TypeScript</code> • <code>LangChain</code> • <code>OpenAI</code></td>
     </tr>
     <tr>
-      <td>🧬 <b><a href="https://github.com/shenald-dev/codedna">CodeDNA</a></b></td>
-      <td><b>Software Intelligence Analyzer</b> — Reverse-engineers codebases into interactive architectural DNA profiles, dependency graphs, and complexity metrics.</td>
-      <td><code>Python</code> • <code>NetworkX</code> • <code>Mermaid</code></td>
+      <td>🧬 <b><a href="https://github.com/shenald-dev/codedna">CodeDNA</a></b><br/><a href="https://github.com/shenald-dev/codedna/releases"><img src="https://img.shields.io/badge/release-v1.4.0-8b5cf6?style=flat-square" alt="v1.4.0" /></a> <a href="https://github.com/shenald-dev/codedna/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT" /></a></td>
+      <td><b>Software Intelligence & Autonomous Remediation Engine</b> — Architectural DNA profiling, CycloneDX v1.5 & SPDX v2.3 SBOM generation, automated AST patch planner, and 9-tool stdio MCP gateway.</td>
+      <td><code>codedna audit .</code><br/><code>Python</code> • <code>NetworkX</code> • <code>MCP</code> • <code>AST</code></td>
     </tr>
     <tr>
       <td>💬 <b><a href="https://github.com/shenald-dev/ai-whatsapp-intelligence">AI WhatsApp Intelligence</a></b></td>
@@ -108,6 +114,11 @@
       <td>⚡ <b><a href="https://github.com/shenald-dev/one-api">one-api</a></b></td>
       <td><b>Universal Edge LLM Gateway</b> — Single binary, zero-config API gateway routing inferences to 20+ top-tier LLM providers with unified billing and fallback.</td>
       <td><code>TypeScript</code> • <code>Hono.js</code> • <code>Vercel Edge</code></td>
+    </tr>
+    <tr>
+      <td>🕶️ <b><a href="https://github.com/shenald-dev/awesome-vibe-coding">awesome-vibe-coding</a></b><br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a></td>
+      <td><b>The Definitive Vibe Coding & Agentic Engineering Index</b> — Curated catalog of autonomous AI coding frameworks, terminal tools, local model workflows, and prompt-driven engineering paradigms.</td>
+      <td><code>Curated Index</code><br/><code>Vibe Coding</code> • <code>AI Agents</code> • <code>Guides</code></td>
     </tr>
   </tbody>
 </table>
@@ -126,24 +137,29 @@
   </thead>
   <tbody>
     <tr>
-      <td>🧹 <b><a href="https://github.com/shenald-dev/purge">purge</a></b></td>
+      <td>🚀 <b><a href="https://github.com/shenald-dev/spinmux">spinmux</a></b><br/><a href="https://github.com/shenald-dev/spinmux/releases"><img src="https://img.shields.io/badge/release-v0.1.0-orange?style=flat-square" alt="v0.1.0" /></a> <a href="https://github.com/shenald-dev/spinmux/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT" /></a></td>
+      <td><b>Autonomous Multi-Service Development Cockpit</b> — High-performance Rust process supervisor with Windows Job Objects tree containment, ephemeral hyper proxy (<code>*.localhost:8080</code>), and interactive Ratatui TUI.</td>
+      <td><code>cargo run --bin spinmux</code><br/><code>Rust</code> • <code>Tokio</code> • <code>Hyper</code> • <code>Ratatui</code></td>
+    </tr>
+    <tr>
+      <td>🧹 <b><a href="https://github.com/shenald-dev/purge">purge</a></b><br/><a href="https://github.com/shenald-dev/purge/releases"><img src="https://img.shields.io/badge/release-v0.1.0-00d4ff?style=flat-square" alt="v0.1.0" /></a> <a href="https://github.com/shenald-dev/purge/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-purple?style=flat-square" alt="MIT" /></a></td>
       <td><b>Developer Bloat & Zombie Reaper</b> — Parallel directory scanner and dev server hunter. Purges <code>node_modules</code>, <code>target</code>, <code>.venv</code>, and slays port hogs on <code>:3000</code> in 3s.</td>
-      <td><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
+      <td><code>purge scan</code><br/><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
     </tr>
     <tr>
-      <td>💎 <b><a href="https://github.com/shenald-dev/prism">prism</a></b></td>
+      <td>💎 <b><a href="https://github.com/shenald-dev/prism">prism</a></b><br/><a href="https://github.com/shenald-dev/prism/releases"><img src="https://img.shields.io/badge/release-v0.1.0-00d4ff?style=flat-square" alt="v0.1.0" /></a> <a href="https://github.com/shenald-dev/prism/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-purple?style=flat-square" alt="MIT" /></a></td>
       <td><b>Topological Blast Radius Radar</b> — Zero-latency (&lt;50ms) topological call-graph & contract invariant analyzer. Pinpoints every broken downstream caller.</td>
-      <td><code>Python</code> • <code>Typer</code> • <code>AST</code></td>
+      <td><code>prism scan .</code><br/><code>Python</code> • <code>Typer</code> • <code>AST</code></td>
     </tr>
     <tr>
-      <td>🍸 <b><a href="https://github.com/shenald-dev/sober">sober</a></b></td>
+      <td>🍸 <b><a href="https://github.com/shenald-dev/sober">sober</a></b><br/><a href="https://github.com/shenald-dev/sober/releases"><img src="https://img.shields.io/badge/release-v0.1.0-ff007f?style=flat-square" alt="v0.1.0" /></a> <a href="https://github.com/shenald-dev/sober/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT" /></a></td>
       <td><b>The Vibe Coding Hangover Cure</b> — Ultra-fast (&lt;500ms) zero-config CLI auditing AI hallucinations, ghost code, secret leaks, and slopsquatting.</td>
-      <td><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
+      <td><code>sober audit .</code><br/><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
     </tr>
     <tr>
-      <td>🧠 <b><a href="https://github.com/shenald-dev/catalyst">catalyst</a></b></td>
+      <td>🧠 <b><a href="https://github.com/shenald-dev/catalyst">catalyst</a></b><br/><a href="https://github.com/shenald-dev/catalyst/releases"><img src="https://img.shields.io/badge/release-v0.3.0-blue?style=flat-square" alt="v0.3.0" /></a></td>
       <td><b>Parallel DAG Workflow Engine</b> — Executes highly complex data pipelines using strictly-typed Domain-Driven Design in Python with benchmarking.</td>
-      <td><code>Python</code> • <code>FastAPI</code> • <code>NetworkX</code></td>
+      <td><code>python -m catalyst</code><br/><code>Python</code> • <code>FastAPI</code> • <code>NetworkX</code></td>
     </tr>
     <tr>
       <td>🎭 <b><a href="https://github.com/shenald-dev/moq">moq</a></b></td>
