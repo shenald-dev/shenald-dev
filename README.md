@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="assets/hud_quantum_new.gif" width="100%" alt="Shenald — AI Systems Architect & Autonomous Agent Infrastructure" style="border-radius: 10px;" />
+    <img src="assets/hud_quantum_hd.gif" width="100%" alt="Shenald — AI Systems Architect & Autonomous Agent Infrastructure" style="border-radius: 10px;" />
   </a>
 
 </div>
