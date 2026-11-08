@@ -22,19 +22,19 @@
 
   <p>
     <a href="https://www.npmjs.com/package/termlens" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/npm/dt/termlens?style=flat&color=00f0ff&logo=npm&label=termlens%20downloads" alt="termlens downloads" />
+      <img src="https://badgen.net/npm/dt/termlens?color=00f0ff&icon=npm&label=termlens%20downloads" alt="termlens downloads" />
     </a>
     &nbsp;
     <a href="https://www.npmjs.com/package/@shenald/agentwire" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/npm/dt/@shenald/agentwire?style=flat&color=8b5cf6&logo=npm&label=agentwire%20downloads" alt="agentwire downloads" />
+      <img src="https://badgen.net/npm/dt/@shenald/agentwire?color=8b5cf6&icon=npm&label=agentwire%20downloads" alt="agentwire downloads" />
     </a>
     &nbsp;
     <a href="https://www.npmjs.com/package/@shenald/autoresearch-agent" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/npm/dt/@shenald/autoresearch-agent?style=flat&color=f59e0b&logo=npm&label=autoresearch%20downloads" alt="autoresearch downloads" />
+      <img src="https://badgen.net/npm/dt/@shenald/autoresearch-agent?color=f59e0b&icon=npm&label=autoresearch%20downloads" alt="autoresearch downloads" />
     </a>
     &nbsp;
     <a href="https://www.npmjs.com/package/@shenald/agentforge" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/npm/dt/@shenald/agentforge?style=flat&color=10b981&logo=npm&label=agentforge%20downloads" alt="agentforge downloads" />
+      <img src="https://badgen.net/npm/dt/@shenald/agentforge?color=10b981&icon=npm&label=agentforge%20downloads" alt="agentforge downloads" />
     </a>
   </p>
 
@@ -57,11 +57,11 @@
       <td><b>Edge-Optimized Micro-AI Collective</b> — Dual Astrocyte-Neuron architecture with local NVIDIA GPU acceleration, zero math hallucination via SymPy, self-repairing AST code sandbox, and &lt;0.2ms reflex security gateway. 📖 <a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc">DEV.to Case Study</a><br/><code>Python</code> • <code>PyTorch</code> • <code>CUDA/TF32</code> • <code>SymPy</code></td>
     </tr>
     <tr>
-      <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://img.shields.io/npm/dt/@shenald/agentwire?style=flat-square&color=8b5cf6&logo=npm&label=downloads" alt="agentwire npm downloads" /></a></td>
+      <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://badgen.net/npm/dt/@shenald/agentwire?color=8b5cf6&icon=npm&label=downloads" alt="agentwire npm downloads" /></a></td>
       <td><b>The Wireshark for AI Agents & MCP</b> — Real-time passive stream inspector and safety firewall. Intercepts dangerous terminal commands (<code>rm -rf</code>, secret leaks), visualizes token waterfalls, and records replayable execution traces.<br/><code>TypeScript</code> • <code>Node.js</code> • <code>MCP</code></td>
     </tr>
     <tr>
-      <td><b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b><br/><a href="https://www.npmjs.com/package/termlens"><img src="https://img.shields.io/npm/dt/termlens?style=flat-square&color=00f0ff&logo=npm&label=downloads" alt="termlens npm downloads" /></a></td>
+      <td><b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b><br/><a href="https://www.npmjs.com/package/termlens"><img src="https://badgen.net/npm/dt/termlens?color=00f0ff&icon=npm&label=downloads" alt="termlens npm downloads" /></a></td>
       <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms before feeding CLI outputs to LLMs. Features specialized error lenses for Jest, TSC, Pytest, and Docker. 📖 <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
     </tr>
     <tr>
@@ -92,11 +92,11 @@
       <td><b>Autonomous Developer Coding Assistant</b> — Multi-agent engine in VS Code that anticipates developer intent, mirrors project coding style, and coordinates complex multi-file architectural refactors.<br/><code>TypeScript</code> • <code>React</code> • <code>OpenAI</code></td>
     </tr>
     <tr>
-      <td>🛡️ <b><a href="https://github.com/shenald-dev/agentforge">AgentForge</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentforge"><img src="https://img.shields.io/npm/dt/@shenald/agentforge?style=flat-square&color=10b981&logo=npm&label=downloads" alt="agentforge npm downloads" /></a></td>
+      <td>🛡️ <b><a href="https://github.com/shenald-dev/agentforge">AgentForge</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentforge"><img src="https://badgen.net/npm/dt/@shenald/agentforge?color=10b981&icon=npm&label=downloads" alt="agentforge npm downloads" /></a></td>
       <td><b>Autonomous Full-Stack Application Forge</b> — Turns natural language prompts into production-ready Next.js 15, FastAPI, and Dockerized apps in seconds with automated Mermaid architecture planning.<br/><code>TypeScript</code> • <code>Handlebars</code> • <code>Hono</code></td>
     </tr>
     <tr>
-      <td>🤖 <b><a href="https://github.com/shenald-dev/autoresearch-agent">AutoResearch-Agent</a></b><br/><a href="https://www.npmjs.com/package/@shenald/autoresearch-agent"><img src="https://img.shields.io/npm/dt/@shenald/autoresearch-agent?style=flat-square&color=f59e0b&logo=npm&label=downloads" alt="autoresearch-agent npm downloads" /></a></td>
+      <td>🤖 <b><a href="https://github.com/shenald-dev/autoresearch-agent">AutoResearch-Agent</a></b><br/><a href="https://www.npmjs.com/package/@shenald/autoresearch-agent"><img src="https://badgen.net/npm/dt/@shenald/autoresearch-agent?color=f59e0b&icon=npm&label=downloads" alt="autoresearch-agent npm downloads" /></a></td>
       <td><b>Autonomous Deep-Dive Research Engine</b> — Intelligent CLI agent powered by LangChain that scours the live web, cross-verifies source citations, and generates comprehensive technical reports.<br/><code>TypeScript</code> • <code>LangChain</code> • <code>OpenAI</code></td>
     </tr>
     <tr>
