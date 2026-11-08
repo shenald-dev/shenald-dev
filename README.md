@@ -4,6 +4,22 @@
     <img src="assets/hud_quantum_hd.gif" width="100%" alt="Shenald — AI Systems Architect & Autonomous Agent Infrastructure" style="border-radius: 10px;" />
   </a>
 
+  <br/><br/>
+
+  <p>
+    <a href="https://gitista.com/search/?country=LK&handle=shenald-dev" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/%F0%9F%8F%86_Gitista_Leaderboard-%233_Open_Source_Contributor_in_Sri_Lanka_%F0%9F%87%B1%F0%9F%87%B0-FF8000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Top 3 Open Source Contributor in Sri Lanka - Gitista" />
+    </a>
+    &nbsp;
+    <a href="https://shenald-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/%F0%9F%8C%90_Live_3D_Portfolio-shenald--portfolio.vercel.app-0070f3?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Live Portfolio Website" />
+    </a>
+    &nbsp;
+    <a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/%F0%9F%A7%A0_Dev.to_Case_Study-Zero--Hallucination_Micro--AI-8b5cf6?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=0d1117" alt="DEV.to Engineering Case Study: GliaCore" />
+    </a>
+  </p>
+
 </div>
 
 ---
