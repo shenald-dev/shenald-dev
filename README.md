@@ -65,7 +65,7 @@
       <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms before feeding CLI outputs to LLMs. Features specialized error lenses for Jest, TSC, Pytest, and Docker. 📖 <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
     </tr>
     <tr>
-      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b><br/><a href="https://www.npmjs.com/package/@shenald/capsule"><img src="https://img.shields.io/npm/v/@shenald/capsule?style=flat-square&color=ec4899&logo=npm&label=npm" alt="capsule npm" /></a></td>
+      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b></td>
       <td><b>Terminal Flight Recorder & Incident Bundler</b> — Automatically intercepts failed CLI commands, sanitizes secret tokens, and packages deterministic reproduction incident bundles for AI debugging agents.<br/><code>TypeScript</code> • <code>Node.js</code> • <code>AST</code></td>
     </tr>
     <tr>
