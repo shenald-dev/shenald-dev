@@ -14,6 +14,20 @@
     <a href="https://gitista.com/search/?country=LK&handle=shenald-dev" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Gitista-%233_Open_Source_Contributor_in_Sri_Lanka_%F0%9F%87%B1%F0%9F%87%B0-FF8000?style=flat&logo=github&logoColor=white" alt="Gitista Rank #3 Sri Lanka" />
     </a>
+    &nbsp;
+    <a href="https://ghcommits.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/GHCommits-Global_All--Time_Percentile-007ec6?style=flat&logo=git&logoColor=white" alt="GHCommits Global All-Time Percentile" />
+    </a>
+  </p>
+
+  <p>
+    <a href="https://www.npmjs.com/package/termlens" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/npm/dt/termlens?style=flat&color=00f0ff&logo=npm&label=termlens%20downloads" alt="termlens downloads" />
+    </a>
+    &nbsp;
+    <a href="https://www.npmjs.com/package/@shenald/agentwire" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/npm/dt/@shenald/agentwire?style=flat&color=8b5cf6&logo=npm&label=agentwire%20downloads" alt="agentwire downloads" />
+    </a>
   </p>
 
 </div>
@@ -35,11 +49,11 @@
       <td><b>Edge-Optimized Micro-AI Collective</b> — Dual Astrocyte-Neuron architecture with local NVIDIA GPU acceleration, zero math hallucination via SymPy, self-repairing AST code sandbox, and &lt;0.2ms reflex security gateway. 📖 <a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc">DEV.to Case Study</a><br/><code>Python</code> • <code>PyTorch</code> • <code>CUDA/TF32</code> • <code>SymPy</code></td>
     </tr>
     <tr>
-      <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b></td>
+      <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://img.shields.io/npm/dt/@shenald/agentwire?style=flat-square&color=8b5cf6&logo=npm&label=downloads" alt="agentwire npm downloads" /></a></td>
       <td><b>The Wireshark for AI Agents & MCP</b> — Real-time passive stream inspector and safety firewall. Intercepts dangerous terminal commands (<code>rm -rf</code>, secret leaks), visualizes token waterfalls, and records replayable execution traces.<br/><code>TypeScript</code> • <code>Node.js</code> • <code>MCP</code></td>
     </tr>
     <tr>
-      <td><b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b></td>
+      <td><b>🔍 <a href="https://github.com/shenald-dev/termlens">termlens</a></b><br/><a href="https://www.npmjs.com/package/termlens"><img src="https://img.shields.io/npm/dt/termlens?style=flat-square&color=00f0ff&logo=npm&label=downloads" alt="termlens npm downloads" /></a></td>
       <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms before feeding CLI outputs to LLMs. Features specialized error lenses for Jest, TSC, Pytest, and Docker. 📖 <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
     </tr>
     <tr>
