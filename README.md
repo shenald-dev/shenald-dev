@@ -28,6 +28,14 @@
     <a href="https://www.npmjs.com/package/@shenald/agentwire" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/npm/dt/@shenald/agentwire?style=flat&color=8b5cf6&logo=npm&label=agentwire%20downloads" alt="agentwire downloads" />
     </a>
+    &nbsp;
+    <a href="https://www.npmjs.com/package/@shenald/autoresearch-agent" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/npm/dt/@shenald/autoresearch-agent?style=flat&color=f59e0b&logo=npm&label=autoresearch%20downloads" alt="autoresearch downloads" />
+    </a>
+    &nbsp;
+    <a href="https://www.npmjs.com/package/@shenald/agentforge" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/npm/dt/@shenald/agentforge?style=flat&color=10b981&logo=npm&label=agentforge%20downloads" alt="agentforge downloads" />
+    </a>
   </p>
 
 </div>
@@ -57,7 +65,7 @@
       <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms before feeding CLI outputs to LLMs. Features specialized error lenses for Jest, TSC, Pytest, and Docker. 📖 <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
     </tr>
     <tr>
-      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b></td>
+      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b><br/><a href="https://www.npmjs.com/package/@shenald/capsule"><img src="https://img.shields.io/npm/v/@shenald/capsule?style=flat-square&color=ec4899&logo=npm&label=npm" alt="capsule npm" /></a></td>
       <td><b>Terminal Flight Recorder & Incident Bundler</b> — Automatically intercepts failed CLI commands, sanitizes secret tokens, and packages deterministic reproduction incident bundles for AI debugging agents.<br/><code>TypeScript</code> • <code>Node.js</code> • <code>AST</code></td>
     </tr>
     <tr>
@@ -84,11 +92,11 @@
       <td><b>Autonomous Developer Coding Assistant</b> — Multi-agent engine in VS Code that anticipates developer intent, mirrors project coding style, and coordinates complex multi-file architectural refactors.<br/><code>TypeScript</code> • <code>React</code> • <code>OpenAI</code></td>
     </tr>
     <tr>
-      <td>🛡️ <b><a href="https://github.com/shenald-dev/agentforge">AgentForge</a></b></td>
+      <td>🛡️ <b><a href="https://github.com/shenald-dev/agentforge">AgentForge</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentforge"><img src="https://img.shields.io/npm/dt/@shenald/agentforge?style=flat-square&color=10b981&logo=npm&label=downloads" alt="agentforge npm downloads" /></a></td>
       <td><b>Autonomous Full-Stack Application Forge</b> — Turns natural language prompts into production-ready Next.js 15, FastAPI, and Dockerized apps in seconds with automated Mermaid architecture planning.<br/><code>TypeScript</code> • <code>Handlebars</code> • <code>Hono</code></td>
     </tr>
     <tr>
-      <td>🤖 <b><a href="https://github.com/shenald-dev/autoresearch-agent">AutoResearch-Agent</a></b></td>
+      <td>🤖 <b><a href="https://github.com/shenald-dev/autoresearch-agent">AutoResearch-Agent</a></b><br/><a href="https://www.npmjs.com/package/@shenald/autoresearch-agent"><img src="https://img.shields.io/npm/dt/@shenald/autoresearch-agent?style=flat-square&color=f59e0b&logo=npm&label=downloads" alt="autoresearch-agent npm downloads" /></a></td>
       <td><b>Autonomous Deep-Dive Research Engine</b> — Intelligent CLI agent powered by LangChain that scours the live web, cross-verifies source citations, and generates comprehensive technical reports.<br/><code>TypeScript</code> • <code>LangChain</code> • <code>OpenAI</code></td>
     </tr>
     <tr>
