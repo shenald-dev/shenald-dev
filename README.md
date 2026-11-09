@@ -108,7 +108,7 @@
       <td><b>Real-Time Group Chat Intelligence Sentinel</b> — Automated intelligence pipeline analyzing live WhatsApp threads, tracking sentiment, extracting action items, and querying conversational vector memory.<br/><code>FastAPI</code> • <code>Next.js</code> • <code>LangChain</code></td>
     </tr>
     <tr>
-      <td>⚡ <b><a href="https://github.com/shenald-dev/one-api">one-api</a></b></td>
+      <td>⚡ <b><a href="https://github.com/shenald-dev/one-api">one-api</a></b><br/><a href="https://www.npmjs.com/package/@shenald/one-api"><img src="https://badgen.net/npm/v/@shenald/one-api?color=00d4ff&icon=npm&label=npm" alt="one-api npm package" /></a></td>
       <td><b>Universal Edge LLM Gateway & Router</b> — Ultra-low latency single-binary gateway seamlessly routing prompts across 20+ LLM providers with automatic fallback, rate limiting, and unified billing.<br/><code>TypeScript</code> • <code>Hono.js</code> • <code>Vercel Edge</code></td>
     </tr>
   </tbody>
