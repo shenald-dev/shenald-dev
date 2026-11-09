@@ -65,7 +65,7 @@
       <td><b>Zero-Token Terminal Compactor & Semantic Lens</b> — Strips 97.3% terminal bloat in &lt;2.5ms before feeding CLI outputs to LLMs. Features specialized error lenses for Jest, TSC, Pytest, and Docker. 📖 <a href="https://dev.to/shenald/we-measured-1500-lines-of-terminal-bloat-burning-020-per-prompt-in-cursor-heres-how-we-1a4">DEV.to Case Study</a><br/><code>TypeScript</code> • <code>Node.js</code> • <code>PTY</code></td>
     </tr>
     <tr>
-      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b></td>
+      <td><b>💊 <a href="https://github.com/shenald-dev/capsule">capsule</a></b><br/><a href="https://www.npmjs.com/package/@shenald/capsule"><img src="https://badgen.net/npm/dt/@shenald/capsule?color=ec4899&icon=npm&label=downloads" alt="capsule npm downloads" /></a></td>
       <td><b>Terminal Flight Recorder & Incident Bundler</b> — Automatically intercepts failed CLI commands, sanitizes secret tokens, and packages deterministic reproduction incident bundles for AI debugging agents.<br/><code>TypeScript</code> • <code>Node.js</code> • <code>AST</code></td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@
       <td><b>Parallel Async DAG Workflow Engine</b> — High-throughput workflow runner executing complex data dependencies via Domain-Driven Design in Python with zero circular reference overhead.<br/><code>Python</code> • <code>FastAPI</code> • <code>NetworkX</code></td>
     </tr>
     <tr>
-      <td>🎭 <b><a href="https://github.com/shenald-dev/moq">moq</a></b></td>
+      <td>🎭 <b><a href="https://github.com/shenald-dev/moq">moq</a></b><br/><a href="https://www.npmjs.com/package/@shenald/moq"><img src="https://badgen.net/npm/dt/@shenald/moq?color=f97316&icon=npm&label=downloads" alt="moq npm downloads" /></a></td>
       <td><b>Zero-Config Instant Mock Server</b> — Microsecond-fast Express testing server to immediately mock, intercept, and simulate REST endpoints during frontend UI development.<br/><code>TypeScript</code> • <code>Express</code></td>
     </tr>
     <tr>
