@@ -18,6 +18,8 @@
     <a href="https://ghcommits.com" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/GHCommits-Global_All--Time_Percentile-007ec6?style=flat&logo=git&logoColor=white" alt="GHCommits Global All-Time Percentile" />
     </a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=shenald-dev&color=00f0ff&style=flat&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
   <p>
