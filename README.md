@@ -152,7 +152,7 @@
     </tr>
     <tr>
       <td>🧘‍♂️ <b><a href="https://github.com/shenald-dev/zen">zen</a></b></td>
-      <td><b>Minimalist Terminal Deep-Work Timer</b> — Distraction-free CLI focus session countdown timer and productivity state tracker engineered strictly for flow state.<br/><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
+      <td><b>Minimalist Terminal Deep Work Timer</b> — Distraction-free CLI focus session countdown timer and productivity state tracker engineered strictly for flow state.<br/><code>Python</code> • <code>Typer</code> • <code>Rich</code></td>
     </tr>
     <tr>
       <td>🔊 <b><a href="https://github.com/shenald-dev/echo">echo</a></b></td>
