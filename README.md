@@ -42,7 +42,7 @@
 
 ---
 
-### ⚡ Flagship AI Infrastructure
+### ⚡ Flagship AI Infrastructure⚡
 
 <table width="100%">
   <thead>
