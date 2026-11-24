@@ -57,7 +57,7 @@
       <td><b>Edge-Optimized Micro-AI Collective</b> — Dual Astrocyte-Neuron architecture with local NVIDIA GPU acceleration, zero math hallucination via SymPy, self-repairing AST code sandbox, and &lt;0.2ms reflex security gateway. 📖 <a href="https://dev.to/shenald/how-i-built-an-autonomous-zero-hallucination-micro-ai-on-an-entry-level-4gb-gpu-34dc">DEV.to Case Study</a><br/><code>Python</code> • <code>PyTorch</code> • <code>CUDA/TF32</code> • <code>SymPy</code></td>
     </tr>
     <tr>
-      <td><b>⚡ <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://badgen.net/npm/dt/@shenald/agentwire?color=8b5cf6&icon=npm&label=downloads" alt="agentwire npm downloads" /></a></td>
+      <td><b> <a href="https://github.com/shenald-dev/agentwire">agentwire</a></b><br/><a href="https://www.npmjs.com/package/@shenald/agentwire"><img src="https://badgen.net/npm/dt/@shenald/agentwire?color=8b5cf6&icon=npm&label=downloads" alt="agentwire npm downloads" /></a></td>
       <td><b>The Wireshark for AI Agents & MCP</b> — Real-time passive stream inspector and safety firewall. Intercepts dangerous terminal commands (<code>rm -rf</code>, secret leaks), visualizes token waterfalls, and records replayable execution traces.<br/><code>TypeScript</code> • <code>Node.js</code> • <code>MCP</code></td>
     </tr>
     <tr>
