@@ -1,0 +1,65 @@
+name: Autonomous Daily Architecture Radar & Streak
+
+on:
+  schedule:
+    # Runs everyday once at 00:17 UTC (around 05:47 AM Sri Lanka time)
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/daily-radar.yml"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Generate & Sync Daily Radar
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install GitHub Copilot CLI (Optional / Fallback Ready)
+        run: |
+          npm install -g @github/copilot || true
+          echo "Copilot CLI installation evaluated."
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Execute Daily Architecture Radar Generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python scripts/daily_radar.py
+
+      - name: Commit and Push Profile Updates
+        run: |
+          git config --global user.name "Shenal Diluksha"
+          git config --global user.email "shenalmohsl@gmail.com"
+
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "chore(profile): 🛰️ update autonomous daily architecture radar [skip ci]"
+            git push origin main
+            echo "::notice ::README.md successfully updated and pushed with author Shenal Diluksha <shenalmohsl@gmail.com>."
+          else
+            echo "No modifications detected in README.md."
+          fi
