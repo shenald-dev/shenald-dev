@@ -217,36 +217,25 @@ def try_offline_engine():
 
 
 def generate_radar_card(data: dict, engine_name: str) -> str:
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    date_badge = datetime.now(timezone.utc).strftime("%Y--%m--%d")
-    
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     quote = data.get("quote", "").strip()
     focus = data.get("focus", "").strip()
     pattern = data.get("pattern", "").strip()
     takeaway = data.get("takeaway", "").strip()
 
-    card = f"""<!-- DAILY_RADAR:START -->
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td style="padding: 14px 18px; border-left: 4px solid #00d4ff; background-color: #0d1117; text-align: left;">
-        <span style="color: #00d4ff; font-weight: bold; font-size: 1.05em;">📡 Autonomous Architecture Dispatch</span> &nbsp;
-        <img src="https://img.shields.io/badge/Pulse-Active-00d4ff?style=flat-square&logo=githubactions&logoColor=white" alt="Pulse Active" /> &nbsp;
-        <img src="https://img.shields.io/badge/Synchronized-{date_badge}-007ec6?style=flat-square&logo=git&logoColor=white" alt="Last Synced" />
-        <br/><br/>
-        <b>“{quote}”</b>
-        <br/><br/>
-        <b>🎯 Daily Focus:</b> {focus}<br/>
-        <b>🏛️ Architectural Pattern:</b> {pattern}<br/>
-        <b>💡 Engineering Takeaway:</b> {takeaway}<br/>
-        <br/>
-        <span style="font-size: 0.85em; color: #8b949e;">⚡ Autonomous Sync: <b>{now_utc}</b> • Engine: <code>{engine_name}</code> • Verification: <code>Strictly Checked 🟢</code></span>
-      </td>
-    </tr>
-  </table>
-</div>
-<!-- DAILY_RADAR:END -->"""
-    return card
+    # Completely invisible in GitHub markdown rendering.
+    # Guarantees daily git diff for 100% streak retention without altering UI appearance.
+    comment = f"""<!--
+  AUTONOMOUS_STREAK_SYNC:START
+  Last Synced: {now_utc}
+  Engine: {engine_name}
+  Focus: {focus}
+  Pattern: {pattern}
+  Quote: "{quote}"
+  Takeaway: {takeaway}
+  AUTONOMOUS_STREAK_SYNC:END
+-->"""
+    return comment
 
 
 def update_readme():
@@ -257,6 +246,9 @@ def update_readme():
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
+
+    # Clean up any legacy visible DAILY_RADAR card if present
+    content = re.sub(r"\n*<!-- DAILY_RADAR:START -->.*?<!-- DAILY_RADAR:END -->\n*", "\n", content, flags=re.DOTALL)
 
     # Step 1: Copilot
     data, engine = try_copilot()
@@ -269,27 +261,21 @@ def update_readme():
     if not data:
         data, engine = try_offline_engine()
 
-    radar_card = generate_radar_card(data, engine)
+    radar_comment = generate_radar_card(data, engine)
 
-    # Check if section tags exist
-    pattern = r"<!-- DAILY_RADAR:START -->.*?<!-- DAILY_RADAR:END -->"
-    if re.search(pattern, content, flags=re.DOTALL):
-        updated_content = re.sub(pattern, radar_card, content, flags=re.DOTALL)
-        print("Updated existing <!-- DAILY_RADAR --> section in README.md")
+    # Update or append invisible streak sync block at the end of README
+    sync_pattern = r"<!--\s*AUTONOMOUS_STREAK_SYNC:START.*?AUTONOMOUS_STREAK_SYNC:END\s*-->"
+    if re.search(sync_pattern, content, flags=re.DOTALL):
+        updated_content = re.sub(sync_pattern, radar_comment, content, flags=re.DOTALL)
+        print("Updated existing invisible streak sync block in README.md")
     else:
-        # Insert after header badges (e.g. right after the first `---`)
-        if "\n---\n" in content:
-            parts = content.split("\n---\n", 1)
-            updated_content = parts[0] + "\n---\n\n" + radar_card + "\n\n---\n" + parts[1]
-            print("Inserted new <!-- DAILY_RADAR --> section after profile header.")
-        else:
-            updated_content = radar_card + "\n\n" + content
-            print("Prepended <!-- DAILY_RADAR --> section to README.md.")
+        updated_content = content.rstrip() + "\n\n" + radar_comment + "\n"
+        print("Appended invisible streak sync block to end of README.md")
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(updated_content)
 
-    print("Successfully wrote updated README.md.")
+    print("Successfully wrote clean README.md.")
 
 
 if __name__ == "__main__":
