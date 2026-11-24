@@ -57,7 +57,8 @@ jobs:
 
           if [ -n "$(git status --porcelain README.md)" ]; then
             git add README.md
-            git commit -m "chore(profile): 🛰️ update autonomous daily architecture radar [skip ci]"
+            git commit -m "chore(profile): ☕ sync daily dev quote of the day [skip ci]"
+            git pull --rebase origin main
             git push origin main
             echo "::notice ::README.md successfully updated and pushed with author Shenal Diluksha <shenalmohsl@gmail.com>."
           else
