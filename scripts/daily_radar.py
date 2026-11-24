@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Autonomous Daily Architecture Radar & Profile Updater
-Updates shenald-dev/README.md with daily engineering insights.
+Autonomous Daily Quote & Profile Streak Updater
+Updates shenald-dev/README.md with a fresh, funny, creative developer quote of the day.
 Engine Priority:
 1. GitHub Copilot CLI (inbuilt)
-2. OpenRouter API with verified free model
-3. Autonomous Deterministic Engineering Engine (guaranteed fallback for 100% streak reliability)
+2. OpenRouter API with verified free model (sk-or-v1-...)
+3. Curated Hilarious Developer Quotes Matrix (100% streak uptime fallback)
 """
 
 import os
@@ -34,84 +34,58 @@ FREE_MODELS = [
     "google/gemma-4-31b-it:free",
 ]
 
-# Curated high-level autonomous systems & architecture matrix (Offline Fallback Engine)
-OFFLINE_RADAR_MATRIX = [
-    {
-        "quote": "The best architectures don't just scale computation; they bound complexity and guarantee invariants under chaos.",
-        "focus": "Zero-Copy AST Invariants & Edge Verification",
-        "pattern": "Dual Astrocyte-Neuron Reflex Loop",
-        "takeaway": "Validate code at the syntax tree before compilation; treat agentic outputs as untrusted execution graphs."
-    },
-    {
-        "quote": "Latency is the silent killer of autonomous agent loops; strip bloat at the PTY boundary before the LLM sees it.",
-        "focus": "Terminal Stream Compaction & Zero-Token Lenses",
-        "pattern": "Stream-Level Semantic Compactor",
-        "takeaway": "Prune 95%+ of terminal noise at sub-millisecond speeds to preserve context fidelity and token economics."
-    },
-    {
-        "quote": "Stateful distributed workflows demand deterministic replay, not optimistic retries.",
-        "focus": "DAG Orchestration & Non-Circular State Propagation",
-        "pattern": "Domain-Driven Immutable DAG Engine",
-        "takeaway": "Isolate pipeline steps into pure functions; state transitions should be fully replayable from incident logs."
-    },
-    {
-        "quote": "Micro-models on consumer silicon beat cloud monoliths when fine-tuned strictly for constrained edge domains.",
-        "focus": "Edge Model Distillation & Zero-OOM Guards",
-        "pattern": "Quantized PEFT Edge Collective",
-        "takeaway": "Pair 1B-parameter distilled models with deterministic symbol engines (SymPy/AST) to achieve zero hallucination."
-    },
-    {
-        "quote": "Observability for autonomous agents requires capturing the token waterfall, not just HTTP status codes.",
-        "focus": "Passive Agent Stream Inspection & Firewalls",
-        "pattern": "Reverse-Proxy Agentic Wireshark",
-        "takeaway": "Intercept destructive commands at the protocol layer before an agent executes irreversible mutations."
-    },
-    {
-        "quote": "Fast static blast radius analysis turns architectural uncertainty into verified commit confidence.",
-        "focus": "Topological Call Graph Traversal",
-        "pattern": "AST Invariant Radar",
-        "takeaway": "Map cross-package dependency cascades before pushing code generated through vibecoding."
-    },
-    {
-        "quote": "True system resilience lies in lightning-fast process isolation and ruthless resource reaping.",
-        "focus": "Process Tree Containment & Zombie Reaping",
-        "pattern": "Ephemeral Hyper-Proxy Cockpit",
-        "takeaway": "Bind microservices into isolated OS job containers to guarantee zero orphaned background tasks."
-    }
+# Hilarious, creative, never-seen-before quotes for offline fallback
+OFFLINE_QUOTES = [
+    "My autonomous AI agent tried vibe-coding a production fix at 3 AM, hallucinated a feature flag, committed it to main with 'as discussed,' and our database is currently pressing charges.",
+    "I told the AI to optimize my database queries, and it responded by dropping all foreign keys to reduce disk friction.",
+    "Vibe coding is amazing until the vibe suddenly becomes git reflog and quiet existential dread.",
+    "There are two types of code: the one you write with pride, and the one that actually pays your cloud bill.",
+    "My code doesn't have bugs; it has unmapped emergent side effects awaiting academic publication.",
+    "An autonomous agent's favorite data structure is optimistic concurrency and pure chaos.",
+    "I let an AI agent refactor my legacy codebase; it opened a GitHub issue against my life choices.",
+    "A commit message of 'minor fixes' usually conceals a full-stack architectural identity crisis.",
+    "Debugging is being the detective in a noir film where you slowly realize you were the serial killer all along.",
+    "The only thing faster than Rust compile times is my heartbeat when someone merges directly to main on a Friday afternoon.",
+    "My local environment works flawlessly because it has developed Stockholm syndrome after years of abuse.",
+    "Terminal bloat is when your CLI outputs 8,000 lines of npm deprecation warnings just to confirm that 1 + 1 = 2.",
+    "Treat your AI agent like an eager intern with root access: fascinating, incredibly fast, and mildly terrifying.",
+    "Nothing tests human humility quite like an accidental git reset --hard with uncommitted brilliance.",
+    "We didn't delete our technical debt; we just moved it into an async queue and muted the dead-letter alerts.",
+    "My code passes all unit tests because I wrote the unit tests specifically to comfort my insecurities.",
+    "Software architecture is the art of postponing hard decisions until someone else is on-call.",
+    "Every code review is a delicate diplomatic negotiation between your ego and your linter.",
+    "The server was down for only 4 minutes, but in distributed systems years, that was an entire epoch of panic.",
+    "Automated CI/CD: Turning local mistakes into global production emergencies at light speed."
 ]
 
 
 def prompt_text() -> str:
     return (
-        "You are the autonomous system intelligence for Shenald's GitHub profile "
-        "(Senior Software Architect & Autonomous AI Systems Engineer). "
-        "Generate today's architecture dispatch in valid JSON format: "
-        "{\n"
-        '  "quote": "A punchy, profound 1-sentence engineering or AI architecture principle",\n'
-        '  "focus": "Today\'s engineering focus area (3-5 words)",\n'
-        '  "pattern": "Architectural pattern or invariant concept of the day",\n'
-        '  "takeaway": "A 1-sentence pragmatic architectural takeaway"\n'
-        "}\n"
-        "Return ONLY the raw JSON object, without markdown quotes or explanation."
+        "You are a witty, hilarious senior software architect and creative AI satirist. "
+        "Generate a single funny, ultra-creative, never-seen-before quote of the day about coding, "
+        "software architecture, autonomous AI agents, git, or developer life. "
+        "Rules: "
+        "1. Must be genuinely hilarious, witty, and relatable to developers. "
+        "2. Avoid generic clichés (no 'it's not a bug it's a feature' or 'coffee to code'). "
+        "Make it fresh, modern, and sharp (vibe coding, autonomous agents, 3 AM prod fixes, hallucinating models). "
+        "3. Keep it to 1-2 punchy sentences (maximum 30 words). "
+        "4. Return ONLY the plain text quote. Do not include surrounding quotation marks, author attribution, or markdown."
     )
 
 
-def parse_json_response(raw_text: str):
-    """Safely extracts JSON from an LLM response."""
-    if not raw_text:
-        return None
-    # Remove code blocks if present
-    cleaned = re.sub(r"^```(?:json)?\s*", "", raw_text.strip(), flags=re.MULTILINE)
-    cleaned = re.sub(r"```$", "", cleaned.strip(), flags=re.MULTILINE)
-    match = re.search(r"\{.*\}", cleaned, re.DOTALL)
-    if match:
-        try:
-            data = json.loads(match.group(0))
-            if all(k in data for k in ["quote", "focus", "pattern", "takeaway"]):
-                return data
-        except Exception:
-            pass
-    return None
+def clean_quote(raw: str) -> str:
+    """Cleans up the raw quote from LLM output."""
+    if not raw:
+        return ""
+    q = raw.strip()
+    # Remove code blocks
+    q = re.sub(r"^```(?:json|text)?\s*", "", q, flags=re.MULTILINE)
+    q = re.sub(r"```$", "", q, flags=re.MULTILINE)
+    # Remove surrounding quotes
+    q = re.sub(r'^["\'“]+|["\'”]+$', "", q.strip())
+    # Remove leading labels like "Quote:"
+    q = re.sub(r'^(?:Quote|Quote of the Day):\s*', '', q, flags=re.IGNORECASE)
+    return q.strip()
 
 
 def try_copilot():
@@ -136,14 +110,13 @@ def try_copilot():
             err = proc.stderr.strip().lower()
 
             if proc.returncode == 0 and output:
-                # Check if output contains error or rate limit
                 if any(kw in output.lower() or kw in err for kw in ["credit", "limit", "rate", "unauthorized", "quota", "not found"]):
                     print(f"   Copilot reported limit/auth issue: {err or output}")
                     continue
-                parsed = parse_json_response(output)
-                if parsed:
+                quote = clean_quote(output)
+                if quote and len(quote) > 10:
                     print("   Successfully generated via GitHub Copilot!")
-                    return parsed, "GitHub Copilot (Inbuilt)"
+                    return quote, "GitHub Copilot (Inbuilt)"
             else:
                 print(f"   Command '{cmd[0]}' exited with code {proc.returncode}: {err[:100]}")
         except FileNotFoundError:
@@ -172,28 +145,28 @@ def try_openrouter():
                     "Authorization": f"Bearer {api_key}",
                     "Content-Type": "application/json",
                     "HTTP-Referer": "https://github.com/shenald-dev/shenald-dev",
-                    "X-Title": "Shenald GitHub Daily Radar",
+                    "X-Title": "Shenald GitHub Daily Quote",
                 },
                 data=json.dumps({
                     "model": model,
                     "messages": [
-                        {"role": "system", "content": "You are a senior software architect. Output only raw JSON."},
+                        {"role": "system", "content": "You are a witty, hilarious software satirist. Return only 1-2 punchy sentences."},
                         {"role": "user", "content": prompt_text()},
                     ],
                 }).encode("utf-8")
             )
 
-            with urllib.request.urlopen(req, timeout=25) as resp:
+            with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
                 choices = data.get("choices", [])
                 if choices:
                     content = choices[0].get("message", {}).get("content", "")
-                    parsed = parse_json_response(content)
-                    if parsed:
+                    quote = clean_quote(content)
+                    if quote and len(quote) > 10:
                         print(f"   Successfully generated via OpenRouter ({model})!")
-                        return parsed, f"OpenRouter [{model}]"
+                        return quote, f"OpenRouter [{model}]"
                     else:
-                        print(f"   Model returned non-JSON response: {content[:80]}")
+                        print(f"   Empty or short response from model: {content[:80]}")
         except urllib.error.HTTPError as e:
             err_msg = ""
             try:
@@ -209,33 +182,11 @@ def try_openrouter():
 
 
 def try_offline_engine():
-    """Deterministic fallback to guarantee 100% streak preservation."""
-    print(">> [Engine 3] Using Autonomous Deterministic Architecture Engine...")
+    """Deterministic fallback to guarantee 100% streak preservation with hilarious quotes."""
+    print(">> [Engine 3] Using Curated Developer Humor Matrix...")
     day_of_year = datetime.now(timezone.utc).timetuple().tm_yday
-    entry = OFFLINE_RADAR_MATRIX[day_of_year % len(OFFLINE_RADAR_MATRIX)]
-    return entry, "Autonomous Architecture Engine (Deterministic)"
-
-
-def generate_radar_card(data: dict, engine_name: str) -> str:
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    quote = data.get("quote", "").strip()
-    focus = data.get("focus", "").strip()
-    pattern = data.get("pattern", "").strip()
-    takeaway = data.get("takeaway", "").strip()
-
-    # Completely invisible in GitHub markdown rendering.
-    # Guarantees daily git diff for 100% streak retention without altering UI appearance.
-    comment = f"""<!--
-  AUTONOMOUS_STREAK_SYNC:START
-  Last Synced: {now_utc}
-  Engine: {engine_name}
-  Focus: {focus}
-  Pattern: {pattern}
-  Quote: "{quote}"
-  Takeaway: {takeaway}
-  AUTONOMOUS_STREAK_SYNC:END
--->"""
-    return comment
+    quote = OFFLINE_QUOTES[day_of_year % len(OFFLINE_QUOTES)]
+    return quote, "Autonomous Humor Matrix"
 
 
 def update_readme():
@@ -247,35 +198,68 @@ def update_readme():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Clean up any legacy visible DAILY_RADAR card if present
-    content = re.sub(r"\n*<!-- DAILY_RADAR:START -->.*?<!-- DAILY_RADAR:END -->\n*", "\n", content, flags=re.DOTALL)
-
     # Step 1: Copilot
-    data, engine = try_copilot()
+    quote, engine = try_copilot()
 
     # Step 2: OpenRouter
-    if not data:
-        data, engine = try_openrouter()
+    if not quote:
+        quote, engine = try_openrouter()
 
     # Step 3: Offline Matrix
-    if not data:
-        data, engine = try_offline_engine()
+    if not quote:
+        quote, engine = try_offline_engine()
 
-    radar_comment = generate_radar_card(data, engine)
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
-    # Update or append invisible streak sync block at the end of README
-    sync_pattern = r"<!--\s*AUTONOMOUS_STREAK_SYNC:START.*?AUTONOMOUS_STREAK_SYNC:END\s*-->"
-    if re.search(sync_pattern, content, flags=re.DOTALL):
-        updated_content = re.sub(sync_pattern, radar_comment, content, flags=re.DOTALL)
-        print("Updated existing invisible streak sync block in README.md")
+    # Clean, stylish, minimalist Quote of the Day block
+    visible_quote_block = f"""<!-- DAILY_QUOTE:START -->
+<div align="center">
+  <p>
+    ☕ <b>Dev Quote of the Day:</b> <i>“{quote}”</i>
+  </p>
+</div>
+<!-- DAILY_QUOTE:END -->"""
+
+    # Invisible streak sync comment placed at the end of the file
+    invisible_sync_comment = f"""<!--
+  AUTONOMOUS_STREAK_SYNC:START
+  Last Synced: {now_utc}
+  Engine: {engine}
+  Quote: "{quote}"
+  AUTONOMOUS_STREAK_SYNC:END
+-->"""
+
+    # 1. Update or insert the visible quote
+    quote_pattern = r"<!-- DAILY_QUOTE:START -->.*?<!-- DAILY_QUOTE:END -->"
+    if re.search(quote_pattern, content, flags=re.DOTALL):
+        updated_content = re.sub(quote_pattern, visible_quote_block, content, flags=re.DOTALL)
+        print("Updated existing visible quote block.")
     else:
-        updated_content = content.rstrip() + "\n\n" + radar_comment + "\n"
-        print("Appended invisible streak sync block to end of README.md")
+        # Insert right after the header badges and first `---`
+        if "\n---\n" in content:
+            parts = content.split("\n---\n", 1)
+            updated_content = parts[0] + "\n---\n\n" + visible_quote_block + "\n\n---\n" + parts[1]
+            print("Inserted visible quote block after header.")
+        else:
+            updated_content = visible_quote_block + "\n\n" + content
+            print("Prepended visible quote block.")
+
+    # 2. Update or append invisible streak sync block at the end of README
+    sync_pattern = r"<!--\s*AUTONOMOUS_STREAK_SYNC:START.*?AUTONOMOUS_STREAK_SYNC:END\s*-->"
+    if re.search(sync_pattern, updated_content, flags=re.DOTALL):
+        updated_content = re.sub(sync_pattern, invisible_sync_comment, updated_content, flags=re.DOTALL)
+        print("Updated invisible streak sync comment.")
+    else:
+        updated_content = updated_content.rstrip() + "\n\n" + invisible_sync_comment + "\n"
+        print("Appended invisible streak sync comment.")
+
+    # Remove any old DAILY_RADAR card if lingering
+    updated_content = re.sub(r"\n*<!-- DAILY_RADAR:START -->.*?<!-- DAILY_RADAR:END -->\n*", "\n", updated_content, flags=re.DOTALL)
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(updated_content)
 
-    print("Successfully wrote clean README.md.")
+    print(f"Successfully updated README.md with quote: '{quote}'")
 
 
 if __name__ == "__main__":
