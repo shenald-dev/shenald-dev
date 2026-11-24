@@ -42,7 +42,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Execute Daily Architecture Radar Generator
+      - name: Ensure Latest Repository State
+        run: |
+          git pull origin main --rebase || true
+
+      - name: Execute Daily Quote Generator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,8 +62,7 @@ jobs:
           if [ -n "$(git status --porcelain README.md)" ]; then
             git add README.md
             git commit -m "chore(profile): ☕ sync daily dev quote of the day [skip ci]"
-            git pull --rebase origin main
-            git push origin main
+            git push origin main || (git pull --rebase -X ours origin main && git push origin main)
             echo "::notice ::README.md successfully updated and pushed with author Shenal Diluksha <shenalmohsl@gmail.com>."
           else
             echo "No modifications detected in README.md."
